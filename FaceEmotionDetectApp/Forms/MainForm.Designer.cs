@@ -39,6 +39,8 @@
             this.label_LName_static_0 = new System.Windows.Forms.Label();
             this.label_FName_static_0 = new System.Windows.Forms.Label();
             this.label_0 = new System.Windows.Forms.Label();
+            this.pictureBox_0_1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_0_0 = new System.Windows.Forms.PictureBox();
             this.panel_0_1 = new System.Windows.Forms.Panel();
             this.label_Sex_1 = new System.Windows.Forms.Label();
             this.label_Sex_static_1 = new System.Windows.Forms.Label();
@@ -47,7 +49,9 @@
             this.label_LName_1 = new System.Windows.Forms.Label();
             this.label_Age_static_1 = new System.Windows.Forms.Label();
             this.label_FName_1 = new System.Windows.Forms.Label();
+            this.pictureBox_1_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_1 = new System.Windows.Forms.Label();
+            this.pictureBox_1_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_1 = new System.Windows.Forms.Label();
             this.panel_1_0 = new System.Windows.Forms.Panel();
             this.label_Sex_3 = new System.Windows.Forms.Label();
@@ -57,19 +61,10 @@
             this.label_LName_3 = new System.Windows.Forms.Label();
             this.label_Age_static_3 = new System.Windows.Forms.Label();
             this.label_FName_3 = new System.Windows.Forms.Label();
+            this.pictureBox_3_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_3 = new System.Windows.Forms.Label();
+            this.pictureBox_3_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_3 = new System.Windows.Forms.Label();
-            this.panel_1_1 = new System.Windows.Forms.Panel();
-            this.label_Sex_4 = new System.Windows.Forms.Label();
-            this.label_Sex_static_4 = new System.Windows.Forms.Label();
-            this.label_Age_4 = new System.Windows.Forms.Label();
-            this.label_4 = new System.Windows.Forms.Label();
-            this.label_LName_4 = new System.Windows.Forms.Label();
-            this.label_Age_static_4 = new System.Windows.Forms.Label();
-            this.label_FName_4 = new System.Windows.Forms.Label();
-            this.label_LName_static_4 = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label_FName_static_4 = new System.Windows.Forms.Label();
             this.panel_1_2 = new System.Windows.Forms.Panel();
             this.label_Sex_5 = new System.Windows.Forms.Label();
             this.label_Sex_static_5 = new System.Windows.Forms.Label();
@@ -78,7 +73,9 @@
             this.label_LName_5 = new System.Windows.Forms.Label();
             this.label_Age_static_5 = new System.Windows.Forms.Label();
             this.label_FName_5 = new System.Windows.Forms.Label();
+            this.pictureBox_5_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_5 = new System.Windows.Forms.Label();
+            this.pictureBox_5_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_5 = new System.Windows.Forms.Label();
             this.panel_2_2 = new System.Windows.Forms.Panel();
             this.label_Sex_8 = new System.Windows.Forms.Label();
@@ -88,7 +85,9 @@
             this.label_LName_8 = new System.Windows.Forms.Label();
             this.label_Age_static_8 = new System.Windows.Forms.Label();
             this.label_FName_8 = new System.Windows.Forms.Label();
+            this.pictureBox_8_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_8 = new System.Windows.Forms.Label();
+            this.pictureBox_8_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_8 = new System.Windows.Forms.Label();
             this.panel_2_0 = new System.Windows.Forms.Panel();
             this.label_Sex_6 = new System.Windows.Forms.Label();
@@ -98,7 +97,9 @@
             this.label_LName_6 = new System.Windows.Forms.Label();
             this.label_Age_static_6 = new System.Windows.Forms.Label();
             this.label_FName_6 = new System.Windows.Forms.Label();
+            this.pictureBox_6_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_6 = new System.Windows.Forms.Label();
+            this.pictureBox_6_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_6 = new System.Windows.Forms.Label();
             this.panel_2_1 = new System.Windows.Forms.Panel();
             this.label_Sex_7 = new System.Windows.Forms.Label();
@@ -108,7 +109,9 @@
             this.label_LName_7 = new System.Windows.Forms.Label();
             this.label_Age_static_7 = new System.Windows.Forms.Label();
             this.label_FName_7 = new System.Windows.Forms.Label();
+            this.pictureBox_7_1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_7 = new System.Windows.Forms.Label();
+            this.pictureBox_7_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_7 = new System.Windows.Forms.Label();
             this.shiftButton = new System.Windows.Forms.Button();
             this.label_FName_static_2 = new System.Windows.Forms.Label();
@@ -121,6 +124,8 @@
             this.label_Sex_static_2 = new System.Windows.Forms.Label();
             this.panel_0_2 = new System.Windows.Forms.Panel();
             this.label_Sex_2 = new System.Windows.Forms.Label();
+            this.pictureBox_2_1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox_2_0 = new System.Windows.Forms.PictureBox();
             this.panel_3_1 = new System.Windows.Forms.Panel();
             this.label_Sex_10 = new System.Windows.Forms.Label();
             this.label_Sex_static_10 = new System.Windows.Forms.Label();
@@ -129,7 +134,9 @@
             this.label_LName_10 = new System.Windows.Forms.Label();
             this.label_Age_static_10 = new System.Windows.Forms.Label();
             this.label_FName_10 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_10 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_10 = new System.Windows.Forms.Label();
             this.panel_3_0 = new System.Windows.Forms.Panel();
             this.label_Sex_9 = new System.Windows.Forms.Label();
@@ -139,7 +146,9 @@
             this.label_LName_9 = new System.Windows.Forms.Label();
             this.label_Age_static_9 = new System.Windows.Forms.Label();
             this.label_FName_9 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label_LName_static_9 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_9 = new System.Windows.Forms.Label();
             this.panel_3_2 = new System.Windows.Forms.Panel();
             this.label_Sex_11 = new System.Windows.Forms.Label();
@@ -149,79 +158,72 @@
             this.label_LName_11 = new System.Windows.Forms.Label();
             this.label_Age_static_11 = new System.Windows.Forms.Label();
             this.label_FName_11 = new System.Windows.Forms.Label();
-            this.label_LName_static_11 = new System.Windows.Forms.Label();
-            this.label_FName_static_11 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.button_Settings = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.label_LName_static_11 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_7_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_7_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_6_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_6_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_8_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_8_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_5_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_5_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_4_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_4_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_3_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_3_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_2_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_2_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_1_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_1_0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_0_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_0_0 = new System.Windows.Forms.PictureBox();
+            this.label_FName_static_11 = new System.Windows.Forms.Label();
+            this.button_Settings = new System.Windows.Forms.Button();
             this.pictureBox_PTZ_Live = new System.Windows.Forms.PictureBox();
             this.pictureBox_Panorama_Live = new System.Windows.Forms.PictureBox();
+            this.panel_PTZ_Camera = new System.Windows.Forms.Panel();
+            this.panel_Panorama_Camera = new System.Windows.Forms.Panel();
+            this.panel_1_1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label_Sex_static_4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label_4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label_Age_static_4 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox_4_1 = new System.Windows.Forms.PictureBox();
+            this.label_LName_static_4 = new System.Windows.Forms.Label();
+            this.pictureBox_4_0 = new System.Windows.Forms.PictureBox();
+            this.label_FName_static_4 = new System.Windows.Forms.Label();
             this.panel_0_0.SuspendLayout();
-            this.panel_0_1.SuspendLayout();
-            this.panel_1_0.SuspendLayout();
-            this.panel_1_1.SuspendLayout();
-            this.panel_1_2.SuspendLayout();
-            this.panel_2_2.SuspendLayout();
-            this.panel_2_0.SuspendLayout();
-            this.panel_2_1.SuspendLayout();
-            this.panel_0_2.SuspendLayout();
-            this.panel_3_1.SuspendLayout();
-            this.panel_3_0.SuspendLayout();
-            this.panel_3_2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_0)).BeginInit();
+            this.panel_0_1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_0)).BeginInit();
+            this.panel_1_0.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_0)).BeginInit();
+            this.panel_1_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_0)).BeginInit();
+            this.panel_2_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_0)).BeginInit();
+            this.panel_2_0.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_0)).BeginInit();
+            this.panel_2_1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_0)).BeginInit();
+            this.panel_0_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_0)).BeginInit();
+            this.panel_3_1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel_3_0.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panel_3_2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ_Live)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama_Live)).BeginInit();
+            this.panel_PTZ_Camera.SuspendLayout();
+            this.panel_Panorama_Camera.SuspendLayout();
+            this.panel_1_1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_0)).BeginInit();
             this.SuspendLayout();
             // 
             // panel_0_0
             // 
             this.panel_0_0.BackColor = System.Drawing.Color.White;
-            this.panel_0_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_0_0.Controls.Add(this.label_Sex_0);
             this.panel_0_0.Controls.Add(this.label_Age_0);
             this.panel_0_0.Controls.Add(this.label_LName_0);
@@ -243,7 +245,7 @@
             this.label_Sex_0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_0.AutoSize = true;
             this.label_Sex_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_0.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_0.Location = new System.Drawing.Point(223, 195);
             this.label_Sex_0.Name = "label_Sex_0";
             this.label_Sex_0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_0.Size = new System.Drawing.Size(24, 21);
@@ -255,7 +257,7 @@
             this.label_Age_0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_0.AutoSize = true;
             this.label_Age_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_0.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_0.Location = new System.Drawing.Point(223, 174);
             this.label_Age_0.Name = "label_Age_0";
             this.label_Age_0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_0.Size = new System.Drawing.Size(24, 21);
@@ -267,7 +269,7 @@
             this.label_LName_0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_0.AutoSize = true;
             this.label_LName_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_0.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_0.Location = new System.Drawing.Point(223, 153);
             this.label_LName_0.Name = "label_LName_0";
             this.label_LName_0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_0.Size = new System.Drawing.Size(24, 21);
@@ -279,7 +281,7 @@
             this.label_FName_0.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_0.AutoSize = true;
             this.label_FName_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_0.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_0.Location = new System.Drawing.Point(223, 132);
             this.label_FName_0.Name = "label_FName_0";
             this.label_FName_0.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_0.Size = new System.Drawing.Size(24, 21);
@@ -290,7 +292,7 @@
             // 
             this.label_Sex_static_0.AutoSize = true;
             this.label_Sex_static_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_0.Location = new System.Drawing.Point(3, 195);
+            this.label_Sex_static_0.Location = new System.Drawing.Point(5, 195);
             this.label_Sex_static_0.Name = "label_Sex_static_0";
             this.label_Sex_static_0.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_0.TabIndex = 6;
@@ -300,7 +302,7 @@
             // 
             this.label_Age_static_0.AutoSize = true;
             this.label_Age_static_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_0.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_0.Location = new System.Drawing.Point(5, 174);
             this.label_Age_static_0.Name = "label_Age_static_0";
             this.label_Age_static_0.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_0.TabIndex = 5;
@@ -310,7 +312,7 @@
             // 
             this.label_LName_static_0.AutoSize = true;
             this.label_LName_static_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_0.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_0.Location = new System.Drawing.Point(5, 153);
             this.label_LName_static_0.Name = "label_LName_static_0";
             this.label_LName_static_0.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_0.TabIndex = 4;
@@ -320,7 +322,7 @@
             // 
             this.label_FName_static_0.AutoSize = true;
             this.label_FName_static_0.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_0.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_0.Location = new System.Drawing.Point(5, 132);
             this.label_FName_static_0.Name = "label_FName_static_0";
             this.label_FName_static_0.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_0.TabIndex = 3;
@@ -332,18 +334,36 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_0.AutoSize = true;
-            this.label_0.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_0.Location = new System.Drawing.Point(109, 45);
+            this.label_0.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_0.Location = new System.Drawing.Point(105, 45);
             this.label_0.Name = "label_0";
-            this.label_0.Size = new System.Drawing.Size(54, 32);
+            this.label_0.Size = new System.Drawing.Size(37, 45);
             this.label_0.TabIndex = 2;
-            this.label_0.Text = "0 %";
+            this.label_0.Text = "0";
             this.label_0.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox_0_1
+            // 
+            this.pictureBox_0_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_0_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_0_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_0_1.Name = "pictureBox_0_1";
+            this.pictureBox_0_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_0_1.TabIndex = 1;
+            this.pictureBox_0_1.TabStop = false;
+            // 
+            // pictureBox_0_0
+            // 
+            this.pictureBox_0_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_0_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_0_0.Name = "pictureBox_0_0";
+            this.pictureBox_0_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_0_0.TabIndex = 0;
+            this.pictureBox_0_0.TabStop = false;
             // 
             // panel_0_1
             // 
             this.panel_0_1.BackColor = System.Drawing.Color.White;
-            this.panel_0_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_0_1.Controls.Add(this.label_Sex_1);
             this.panel_0_1.Controls.Add(this.label_Sex_static_1);
             this.panel_0_1.Controls.Add(this.label_Age_1);
@@ -365,7 +385,7 @@
             this.label_Sex_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_1.AutoSize = true;
             this.label_Sex_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_1.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_1.Location = new System.Drawing.Point(225, 194);
             this.label_Sex_1.Name = "label_Sex_1";
             this.label_Sex_1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_1.Size = new System.Drawing.Size(24, 21);
@@ -376,7 +396,7 @@
             // 
             this.label_Sex_static_1.AutoSize = true;
             this.label_Sex_static_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_1.Location = new System.Drawing.Point(4, 195);
+            this.label_Sex_static_1.Location = new System.Drawing.Point(12, 194);
             this.label_Sex_static_1.Name = "label_Sex_static_1";
             this.label_Sex_static_1.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_1.TabIndex = 10;
@@ -387,7 +407,7 @@
             this.label_Age_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_1.AutoSize = true;
             this.label_Age_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_1.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_1.Location = new System.Drawing.Point(225, 173);
             this.label_Age_1.Name = "label_Age_1";
             this.label_Age_1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_1.Size = new System.Drawing.Size(24, 21);
@@ -400,12 +420,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_1.AutoSize = true;
-            this.label_1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_1.Location = new System.Drawing.Point(116, 45);
+            this.label_1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_1.Location = new System.Drawing.Point(105, 45);
             this.label_1.Name = "label_1";
-            this.label_1.Size = new System.Drawing.Size(54, 32);
+            this.label_1.Size = new System.Drawing.Size(37, 45);
             this.label_1.TabIndex = 4;
-            this.label_1.Text = "0 %";
+            this.label_1.Text = "0";
             this.label_1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_1
@@ -413,7 +433,7 @@
             this.label_LName_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_1.AutoSize = true;
             this.label_LName_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_1.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_1.Location = new System.Drawing.Point(225, 152);
             this.label_LName_1.Name = "label_LName_1";
             this.label_LName_1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_1.Size = new System.Drawing.Size(24, 21);
@@ -424,7 +444,7 @@
             // 
             this.label_Age_static_1.AutoSize = true;
             this.label_Age_static_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_1.Location = new System.Drawing.Point(4, 174);
+            this.label_Age_static_1.Location = new System.Drawing.Point(12, 173);
             this.label_Age_static_1.Name = "label_Age_static_1";
             this.label_Age_static_1.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_1.TabIndex = 9;
@@ -435,28 +455,47 @@
             this.label_FName_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_1.AutoSize = true;
             this.label_FName_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_1.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_1.Location = new System.Drawing.Point(225, 131);
             this.label_FName_1.Name = "label_FName_1";
             this.label_FName_1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_1.Size = new System.Drawing.Size(24, 21);
             this.label_FName_1.TabIndex = 11;
             this.label_FName_1.Text = " - ";
             // 
+            // pictureBox_1_1
+            // 
+            this.pictureBox_1_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_1_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_1_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_1_1.Name = "pictureBox_1_1";
+            this.pictureBox_1_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_1_1.TabIndex = 3;
+            this.pictureBox_1_1.TabStop = false;
+            // 
             // label_LName_static_1
             // 
             this.label_LName_static_1.AutoSize = true;
             this.label_LName_static_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_1.Location = new System.Drawing.Point(4, 153);
+            this.label_LName_static_1.Location = new System.Drawing.Point(12, 152);
             this.label_LName_static_1.Name = "label_LName_static_1";
             this.label_LName_static_1.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_1.TabIndex = 8;
             this.label_LName_static_1.Text = "Фамилия: ";
             // 
+            // pictureBox_1_0
+            // 
+            this.pictureBox_1_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_1_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_1_0.Name = "pictureBox_1_0";
+            this.pictureBox_1_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_1_0.TabIndex = 2;
+            this.pictureBox_1_0.TabStop = false;
+            // 
             // label_FName_static_1
             // 
             this.label_FName_static_1.AutoSize = true;
             this.label_FName_static_1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_1.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_1.Location = new System.Drawing.Point(11, 131);
             this.label_FName_static_1.Name = "label_FName_static_1";
             this.label_FName_static_1.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_1.TabIndex = 7;
@@ -465,7 +504,6 @@
             // panel_1_0
             // 
             this.panel_1_0.BackColor = System.Drawing.Color.White;
-            this.panel_1_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_1_0.Controls.Add(this.label_Sex_3);
             this.panel_1_0.Controls.Add(this.label_Sex_static_3);
             this.panel_1_0.Controls.Add(this.label_Age_3);
@@ -487,7 +525,7 @@
             this.label_Sex_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_3.AutoSize = true;
             this.label_Sex_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_3.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_3.Location = new System.Drawing.Point(227, 195);
             this.label_Sex_3.Name = "label_Sex_3";
             this.label_Sex_3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_3.Size = new System.Drawing.Size(24, 21);
@@ -498,7 +536,7 @@
             // 
             this.label_Sex_static_3.AutoSize = true;
             this.label_Sex_static_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_3.Location = new System.Drawing.Point(3, 195);
+            this.label_Sex_static_3.Location = new System.Drawing.Point(11, 195);
             this.label_Sex_static_3.Name = "label_Sex_static_3";
             this.label_Sex_static_3.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_3.TabIndex = 34;
@@ -509,7 +547,7 @@
             this.label_Age_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_3.AutoSize = true;
             this.label_Age_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_3.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_3.Location = new System.Drawing.Point(227, 174);
             this.label_Age_3.Name = "label_Age_3";
             this.label_Age_3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_3.Size = new System.Drawing.Size(24, 21);
@@ -522,12 +560,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_3.AutoSize = true;
-            this.label_3.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_3.Location = new System.Drawing.Point(109, 40);
+            this.label_3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_3.Location = new System.Drawing.Point(105, 45);
             this.label_3.Name = "label_3";
-            this.label_3.Size = new System.Drawing.Size(54, 32);
+            this.label_3.Size = new System.Drawing.Size(37, 45);
             this.label_3.TabIndex = 6;
-            this.label_3.Text = "0 %";
+            this.label_3.Text = "0";
             this.label_3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_3
@@ -535,7 +573,7 @@
             this.label_LName_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_3.AutoSize = true;
             this.label_LName_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_3.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_3.Location = new System.Drawing.Point(227, 153);
             this.label_LName_3.Name = "label_LName_3";
             this.label_LName_3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_3.Size = new System.Drawing.Size(24, 21);
@@ -546,7 +584,7 @@
             // 
             this.label_Age_static_3.AutoSize = true;
             this.label_Age_static_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_3.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_3.Location = new System.Drawing.Point(11, 174);
             this.label_Age_static_3.Name = "label_Age_static_3";
             this.label_Age_static_3.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_3.TabIndex = 33;
@@ -557,166 +595,55 @@
             this.label_FName_3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_3.AutoSize = true;
             this.label_FName_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_3.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_3.Location = new System.Drawing.Point(227, 132);
             this.label_FName_3.Name = "label_FName_3";
             this.label_FName_3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_3.Size = new System.Drawing.Size(24, 21);
             this.label_FName_3.TabIndex = 39;
             this.label_FName_3.Text = " - ";
             // 
+            // pictureBox_3_1
+            // 
+            this.pictureBox_3_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_3_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_3_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_3_1.Name = "pictureBox_3_1";
+            this.pictureBox_3_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_3_1.TabIndex = 13;
+            this.pictureBox_3_1.TabStop = false;
+            // 
             // label_LName_static_3
             // 
             this.label_LName_static_3.AutoSize = true;
             this.label_LName_static_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_3.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_3.Location = new System.Drawing.Point(11, 153);
             this.label_LName_static_3.Name = "label_LName_static_3";
             this.label_LName_static_3.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_3.TabIndex = 32;
             this.label_LName_static_3.Text = "Фамилия: ";
             // 
+            // pictureBox_3_0
+            // 
+            this.pictureBox_3_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_3_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_3_0.Name = "pictureBox_3_0";
+            this.pictureBox_3_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_3_0.TabIndex = 12;
+            this.pictureBox_3_0.TabStop = false;
+            // 
             // label_FName_static_3
             // 
             this.label_FName_static_3.AutoSize = true;
             this.label_FName_static_3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_3.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_3.Location = new System.Drawing.Point(11, 132);
             this.label_FName_static_3.Name = "label_FName_static_3";
             this.label_FName_static_3.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_3.TabIndex = 31;
             this.label_FName_static_3.Text = "Имя: ";
             // 
-            // panel_1_1
-            // 
-            this.panel_1_1.BackColor = System.Drawing.Color.White;
-            this.panel_1_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_1_1.Controls.Add(this.label_Sex_4);
-            this.panel_1_1.Controls.Add(this.label_Sex_static_4);
-            this.panel_1_1.Controls.Add(this.label_Age_4);
-            this.panel_1_1.Controls.Add(this.label_4);
-            this.panel_1_1.Controls.Add(this.label_LName_4);
-            this.panel_1_1.Controls.Add(this.label_Age_static_4);
-            this.panel_1_1.Controls.Add(this.label_FName_4);
-            this.panel_1_1.Controls.Add(this.pictureBox_4_1);
-            this.panel_1_1.Controls.Add(this.label_LName_static_4);
-            this.panel_1_1.Controls.Add(this.panel8);
-            this.panel_1_1.Controls.Add(this.label_FName_static_4);
-            this.panel_1_1.Controls.Add(this.pictureBox_4_0);
-            this.panel_1_1.Location = new System.Drawing.Point(353, 277);
-            this.panel_1_1.Name = "panel_1_1";
-            this.panel_1_1.Size = new System.Drawing.Size(312, 240);
-            this.panel_1_1.TabIndex = 7;
-            // 
-            // label_Sex_4
-            // 
-            this.label_Sex_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_Sex_4.AutoSize = true;
-            this.label_Sex_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_4.Location = new System.Drawing.Point(233, 191);
-            this.label_Sex_4.Name = "label_Sex_4";
-            this.label_Sex_4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label_Sex_4.Size = new System.Drawing.Size(24, 21);
-            this.label_Sex_4.TabIndex = 26;
-            this.label_Sex_4.Text = " - ";
-            // 
-            // label_Sex_static_4
-            // 
-            this.label_Sex_static_4.AutoSize = true;
-            this.label_Sex_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_4.Location = new System.Drawing.Point(4, 191);
-            this.label_Sex_static_4.Name = "label_Sex_static_4";
-            this.label_Sex_static_4.Size = new System.Drawing.Size(45, 21);
-            this.label_Sex_static_4.TabIndex = 38;
-            this.label_Sex_static_4.Text = "Пол: ";
-            // 
-            // label_Age_4
-            // 
-            this.label_Age_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_Age_4.AutoSize = true;
-            this.label_Age_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_4.Location = new System.Drawing.Point(233, 170);
-            this.label_Age_4.Name = "label_Age_4";
-            this.label_Age_4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label_Age_4.Size = new System.Drawing.Size(24, 21);
-            this.label_Age_4.TabIndex = 25;
-            this.label_Age_4.Text = " - ";
-            // 
-            // label_4
-            // 
-            this.label_4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_4.AutoSize = true;
-            this.label_4.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_4.Location = new System.Drawing.Point(116, 36);
-            this.label_4.Name = "label_4";
-            this.label_4.Size = new System.Drawing.Size(54, 32);
-            this.label_4.TabIndex = 14;
-            this.label_4.Text = "0 %";
-            this.label_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label_LName_4
-            // 
-            this.label_LName_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_LName_4.AutoSize = true;
-            this.label_LName_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_4.Location = new System.Drawing.Point(233, 149);
-            this.label_LName_4.Name = "label_LName_4";
-            this.label_LName_4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label_LName_4.Size = new System.Drawing.Size(24, 21);
-            this.label_LName_4.TabIndex = 24;
-            this.label_LName_4.Text = " - ";
-            // 
-            // label_Age_static_4
-            // 
-            this.label_Age_static_4.AutoSize = true;
-            this.label_Age_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_4.Location = new System.Drawing.Point(4, 170);
-            this.label_Age_static_4.Name = "label_Age_static_4";
-            this.label_Age_static_4.Size = new System.Drawing.Size(73, 21);
-            this.label_Age_static_4.TabIndex = 37;
-            this.label_Age_static_4.Text = "Возраст: ";
-            // 
-            // label_FName_4
-            // 
-            this.label_FName_4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.label_FName_4.AutoSize = true;
-            this.label_FName_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_4.Location = new System.Drawing.Point(233, 128);
-            this.label_FName_4.Name = "label_FName_4";
-            this.label_FName_4.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.label_FName_4.Size = new System.Drawing.Size(24, 21);
-            this.label_FName_4.TabIndex = 23;
-            this.label_FName_4.Text = " - ";
-            // 
-            // label_LName_static_4
-            // 
-            this.label_LName_static_4.AutoSize = true;
-            this.label_LName_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_4.Location = new System.Drawing.Point(4, 149);
-            this.label_LName_static_4.Name = "label_LName_static_4";
-            this.label_LName_static_4.Size = new System.Drawing.Size(82, 21);
-            this.label_LName_static_4.TabIndex = 36;
-            this.label_LName_static_4.Text = "Фамилия: ";
-            // 
-            // panel8
-            // 
-            this.panel8.Location = new System.Drawing.Point(0, 234);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(318, 228);
-            this.panel8.TabIndex = 7;
-            // 
-            // label_FName_static_4
-            // 
-            this.label_FName_static_4.AutoSize = true;
-            this.label_FName_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_4.Location = new System.Drawing.Point(3, 128);
-            this.label_FName_static_4.Name = "label_FName_static_4";
-            this.label_FName_static_4.Size = new System.Drawing.Size(48, 21);
-            this.label_FName_static_4.TabIndex = 35;
-            this.label_FName_static_4.Text = "Имя: ";
-            // 
             // panel_1_2
             // 
             this.panel_1_2.BackColor = System.Drawing.Color.White;
-            this.panel_1_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_1_2.Controls.Add(this.label_Sex_5);
             this.panel_1_2.Controls.Add(this.label_Sex_static_5);
             this.panel_1_2.Controls.Add(this.label_Age_5);
@@ -728,7 +655,7 @@
             this.panel_1_2.Controls.Add(this.label_LName_static_5);
             this.panel_1_2.Controls.Add(this.pictureBox_5_0);
             this.panel_1_2.Controls.Add(this.label_FName_static_5);
-            this.panel_1_2.Location = new System.Drawing.Point(682, 277);
+            this.panel_1_2.Location = new System.Drawing.Point(682, 273);
             this.panel_1_2.Name = "panel_1_2";
             this.panel_1_2.Size = new System.Drawing.Size(312, 240);
             this.panel_1_2.TabIndex = 7;
@@ -738,7 +665,7 @@
             this.label_Sex_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_5.AutoSize = true;
             this.label_Sex_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_5.Location = new System.Drawing.Point(233, 191);
+            this.label_Sex_5.Location = new System.Drawing.Point(227, 191);
             this.label_Sex_5.Name = "label_Sex_5";
             this.label_Sex_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_5.Size = new System.Drawing.Size(24, 21);
@@ -749,7 +676,7 @@
             // 
             this.label_Sex_static_5.AutoSize = true;
             this.label_Sex_static_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_5.Location = new System.Drawing.Point(3, 191);
+            this.label_Sex_static_5.Location = new System.Drawing.Point(12, 191);
             this.label_Sex_static_5.Name = "label_Sex_static_5";
             this.label_Sex_static_5.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_5.TabIndex = 18;
@@ -760,7 +687,7 @@
             this.label_Age_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_5.AutoSize = true;
             this.label_Age_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_5.Location = new System.Drawing.Point(233, 170);
+            this.label_Age_5.Location = new System.Drawing.Point(227, 170);
             this.label_Age_5.Name = "label_Age_5";
             this.label_Age_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_5.Size = new System.Drawing.Size(24, 21);
@@ -773,13 +700,13 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_5.AutoSize = true;
-            this.label_5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_5.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_5.ForeColor = System.Drawing.Color.Black;
-            this.label_5.Location = new System.Drawing.Point(116, 36);
+            this.label_5.Location = new System.Drawing.Point(105, 45);
             this.label_5.Name = "label_5";
-            this.label_5.Size = new System.Drawing.Size(54, 32);
+            this.label_5.Size = new System.Drawing.Size(37, 45);
             this.label_5.TabIndex = 15;
-            this.label_5.Text = "0 %";
+            this.label_5.Text = "0";
             this.label_5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_5
@@ -787,7 +714,7 @@
             this.label_LName_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_5.AutoSize = true;
             this.label_LName_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_5.Location = new System.Drawing.Point(233, 149);
+            this.label_LName_5.Location = new System.Drawing.Point(227, 149);
             this.label_LName_5.Name = "label_LName_5";
             this.label_LName_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_5.Size = new System.Drawing.Size(24, 21);
@@ -798,7 +725,7 @@
             // 
             this.label_Age_static_5.AutoSize = true;
             this.label_Age_static_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_5.Location = new System.Drawing.Point(4, 170);
+            this.label_Age_static_5.Location = new System.Drawing.Point(13, 170);
             this.label_Age_static_5.Name = "label_Age_static_5";
             this.label_Age_static_5.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_5.TabIndex = 17;
@@ -809,28 +736,47 @@
             this.label_FName_5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_5.AutoSize = true;
             this.label_FName_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_5.Location = new System.Drawing.Point(233, 128);
+            this.label_FName_5.Location = new System.Drawing.Point(227, 128);
             this.label_FName_5.Name = "label_FName_5";
             this.label_FName_5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_5.Size = new System.Drawing.Size(24, 21);
             this.label_FName_5.TabIndex = 19;
             this.label_FName_5.Text = " - ";
             // 
+            // pictureBox_5_1
+            // 
+            this.pictureBox_5_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_5_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_5_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_5_1.Name = "pictureBox_5_1";
+            this.pictureBox_5_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_5_1.TabIndex = 7;
+            this.pictureBox_5_1.TabStop = false;
+            // 
             // label_LName_static_5
             // 
             this.label_LName_static_5.AutoSize = true;
             this.label_LName_static_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_5.Location = new System.Drawing.Point(3, 149);
+            this.label_LName_static_5.Location = new System.Drawing.Point(12, 149);
             this.label_LName_static_5.Name = "label_LName_static_5";
             this.label_LName_static_5.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_5.TabIndex = 16;
             this.label_LName_static_5.Text = "Фамилия: ";
             // 
+            // pictureBox_5_0
+            // 
+            this.pictureBox_5_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_5_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_5_0.Name = "pictureBox_5_0";
+            this.pictureBox_5_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_5_0.TabIndex = 6;
+            this.pictureBox_5_0.TabStop = false;
+            // 
             // label_FName_static_5
             // 
             this.label_FName_static_5.AutoSize = true;
             this.label_FName_static_5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_5.Location = new System.Drawing.Point(3, 128);
+            this.label_FName_static_5.Location = new System.Drawing.Point(12, 128);
             this.label_FName_static_5.Name = "label_FName_static_5";
             this.label_FName_static_5.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_5.TabIndex = 15;
@@ -839,7 +785,6 @@
             // panel_2_2
             // 
             this.panel_2_2.BackColor = System.Drawing.Color.White;
-            this.panel_2_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_2_2.Controls.Add(this.label_Sex_8);
             this.panel_2_2.Controls.Add(this.label_Sex_static_8);
             this.panel_2_2.Controls.Add(this.label_Age_8);
@@ -861,7 +806,7 @@
             this.label_Sex_8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_8.AutoSize = true;
             this.label_Sex_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_8.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_8.Location = new System.Drawing.Point(225, 195);
             this.label_Sex_8.Name = "label_Sex_8";
             this.label_Sex_8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_8.Size = new System.Drawing.Size(24, 21);
@@ -872,7 +817,7 @@
             // 
             this.label_Sex_static_8.AutoSize = true;
             this.label_Sex_static_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_8.Location = new System.Drawing.Point(3, 195);
+            this.label_Sex_static_8.Location = new System.Drawing.Point(13, 195);
             this.label_Sex_static_8.Name = "label_Sex_static_8";
             this.label_Sex_static_8.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_8.TabIndex = 22;
@@ -883,7 +828,7 @@
             this.label_Age_8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_8.AutoSize = true;
             this.label_Age_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_8.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_8.Location = new System.Drawing.Point(225, 174);
             this.label_Age_8.Name = "label_Age_8";
             this.label_Age_8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_8.Size = new System.Drawing.Size(24, 21);
@@ -896,12 +841,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_8.AutoSize = true;
-            this.label_8.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_8.Location = new System.Drawing.Point(106, 48);
+            this.label_8.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_8.Location = new System.Drawing.Point(105, 45);
             this.label_8.Name = "label_8";
-            this.label_8.Size = new System.Drawing.Size(54, 32);
+            this.label_8.Size = new System.Drawing.Size(37, 45);
             this.label_8.TabIndex = 18;
-            this.label_8.Text = "0 %";
+            this.label_8.Text = "0";
             this.label_8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_8
@@ -909,7 +854,7 @@
             this.label_LName_8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_8.AutoSize = true;
             this.label_LName_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_8.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_8.Location = new System.Drawing.Point(225, 153);
             this.label_LName_8.Name = "label_LName_8";
             this.label_LName_8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_8.Size = new System.Drawing.Size(24, 21);
@@ -920,7 +865,7 @@
             // 
             this.label_Age_static_8.AutoSize = true;
             this.label_Age_static_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_8.Location = new System.Drawing.Point(4, 174);
+            this.label_Age_static_8.Location = new System.Drawing.Point(14, 174);
             this.label_Age_static_8.Name = "label_Age_static_8";
             this.label_Age_static_8.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_8.TabIndex = 21;
@@ -931,7 +876,7 @@
             this.label_FName_8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_8.AutoSize = true;
             this.label_FName_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_8.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_8.Location = new System.Drawing.Point(225, 132);
             this.label_FName_8.Name = "label_FName_8";
             this.label_FName_8.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_8.Size = new System.Drawing.Size(24, 21);
@@ -939,21 +884,40 @@
             this.label_FName_8.Text = " - ";
             this.label_FName_8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
+            // pictureBox_8_1
+            // 
+            this.pictureBox_8_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_8_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_8_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_8_1.Name = "pictureBox_8_1";
+            this.pictureBox_8_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_8_1.TabIndex = 9;
+            this.pictureBox_8_1.TabStop = false;
+            // 
             // label_LName_static_8
             // 
             this.label_LName_static_8.AutoSize = true;
             this.label_LName_static_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_8.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_8.Location = new System.Drawing.Point(13, 153);
             this.label_LName_static_8.Name = "label_LName_static_8";
             this.label_LName_static_8.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_8.TabIndex = 20;
             this.label_LName_static_8.Text = "Фамилия: ";
             // 
+            // pictureBox_8_0
+            // 
+            this.pictureBox_8_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_8_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_8_0.Name = "pictureBox_8_0";
+            this.pictureBox_8_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_8_0.TabIndex = 8;
+            this.pictureBox_8_0.TabStop = false;
+            // 
             // label_FName_static_8
             // 
             this.label_FName_static_8.AutoSize = true;
             this.label_FName_static_8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_8.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_8.Location = new System.Drawing.Point(13, 132);
             this.label_FName_static_8.Name = "label_FName_static_8";
             this.label_FName_static_8.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_8.TabIndex = 19;
@@ -962,7 +926,6 @@
             // panel_2_0
             // 
             this.panel_2_0.BackColor = System.Drawing.Color.White;
-            this.panel_2_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_2_0.Controls.Add(this.label_Sex_6);
             this.panel_2_0.Controls.Add(this.label_Sex_static_6);
             this.panel_2_0.Controls.Add(this.label_Age_6);
@@ -984,7 +947,7 @@
             this.label_Sex_6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_6.AutoSize = true;
             this.label_Sex_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_6.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_6.Location = new System.Drawing.Point(227, 195);
             this.label_Sex_6.Name = "label_Sex_6";
             this.label_Sex_6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_6.Size = new System.Drawing.Size(24, 21);
@@ -995,7 +958,7 @@
             // 
             this.label_Sex_static_6.AutoSize = true;
             this.label_Sex_static_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_6.Location = new System.Drawing.Point(3, 195);
+            this.label_Sex_static_6.Location = new System.Drawing.Point(11, 195);
             this.label_Sex_static_6.Name = "label_Sex_static_6";
             this.label_Sex_static_6.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_6.TabIndex = 30;
@@ -1006,7 +969,7 @@
             this.label_Age_6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_6.AutoSize = true;
             this.label_Age_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_6.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_6.Location = new System.Drawing.Point(227, 174);
             this.label_Age_6.Name = "label_Age_6";
             this.label_Age_6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_6.Size = new System.Drawing.Size(24, 21);
@@ -1019,12 +982,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_6.AutoSize = true;
-            this.label_6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_6.Location = new System.Drawing.Point(109, 37);
+            this.label_6.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_6.Location = new System.Drawing.Point(105, 45);
             this.label_6.Name = "label_6";
-            this.label_6.Size = new System.Drawing.Size(54, 32);
+            this.label_6.Size = new System.Drawing.Size(37, 45);
             this.label_6.TabIndex = 16;
-            this.label_6.Text = "0 %";
+            this.label_6.Text = "0";
             this.label_6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_6
@@ -1032,7 +995,7 @@
             this.label_LName_6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_6.AutoSize = true;
             this.label_LName_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_6.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_6.Location = new System.Drawing.Point(227, 153);
             this.label_LName_6.Name = "label_LName_6";
             this.label_LName_6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_6.Size = new System.Drawing.Size(24, 21);
@@ -1043,7 +1006,7 @@
             // 
             this.label_Age_static_6.AutoSize = true;
             this.label_Age_static_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_6.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_6.Location = new System.Drawing.Point(11, 174);
             this.label_Age_static_6.Name = "label_Age_static_6";
             this.label_Age_static_6.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_6.TabIndex = 29;
@@ -1054,28 +1017,47 @@
             this.label_FName_6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_6.AutoSize = true;
             this.label_FName_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_6.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_6.Location = new System.Drawing.Point(227, 132);
             this.label_FName_6.Name = "label_FName_6";
             this.label_FName_6.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_6.Size = new System.Drawing.Size(24, 21);
             this.label_FName_6.TabIndex = 43;
             this.label_FName_6.Text = " - ";
             // 
+            // pictureBox_6_1
+            // 
+            this.pictureBox_6_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_6_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_6_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_6_1.Name = "pictureBox_6_1";
+            this.pictureBox_6_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_6_1.TabIndex = 15;
+            this.pictureBox_6_1.TabStop = false;
+            // 
             // label_LName_static_6
             // 
             this.label_LName_static_6.AutoSize = true;
             this.label_LName_static_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_6.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_6.Location = new System.Drawing.Point(11, 153);
             this.label_LName_static_6.Name = "label_LName_static_6";
             this.label_LName_static_6.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_6.TabIndex = 28;
             this.label_LName_static_6.Text = "Фамилия: ";
             // 
+            // pictureBox_6_0
+            // 
+            this.pictureBox_6_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_6_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_6_0.Name = "pictureBox_6_0";
+            this.pictureBox_6_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_6_0.TabIndex = 14;
+            this.pictureBox_6_0.TabStop = false;
+            // 
             // label_FName_static_6
             // 
             this.label_FName_static_6.AutoSize = true;
             this.label_FName_static_6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_6.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_6.Location = new System.Drawing.Point(11, 132);
             this.label_FName_static_6.Name = "label_FName_static_6";
             this.label_FName_static_6.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_6.TabIndex = 27;
@@ -1084,7 +1066,6 @@
             // panel_2_1
             // 
             this.panel_2_1.BackColor = System.Drawing.Color.White;
-            this.panel_2_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_2_1.Controls.Add(this.label_Sex_7);
             this.panel_2_1.Controls.Add(this.label_Sex_static_7);
             this.panel_2_1.Controls.Add(this.label_Age_7);
@@ -1106,7 +1087,7 @@
             this.label_Sex_7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_7.AutoSize = true;
             this.label_Sex_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_7.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_7.Location = new System.Drawing.Point(225, 195);
             this.label_Sex_7.Name = "label_Sex_7";
             this.label_Sex_7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_7.Size = new System.Drawing.Size(24, 21);
@@ -1117,7 +1098,7 @@
             // 
             this.label_Sex_static_7.AutoSize = true;
             this.label_Sex_static_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_7.Location = new System.Drawing.Point(4, 195);
+            this.label_Sex_static_7.Location = new System.Drawing.Point(11, 195);
             this.label_Sex_static_7.Name = "label_Sex_static_7";
             this.label_Sex_static_7.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_7.TabIndex = 26;
@@ -1128,7 +1109,7 @@
             this.label_Age_7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_7.AutoSize = true;
             this.label_Age_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_7.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_7.Location = new System.Drawing.Point(225, 174);
             this.label_Age_7.Name = "label_Age_7";
             this.label_Age_7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_7.Size = new System.Drawing.Size(24, 21);
@@ -1141,12 +1122,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_7.AutoSize = true;
-            this.label_7.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_7.Location = new System.Drawing.Point(116, 37);
+            this.label_7.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_7.Location = new System.Drawing.Point(105, 45);
             this.label_7.Name = "label_7";
-            this.label_7.Size = new System.Drawing.Size(54, 32);
+            this.label_7.Size = new System.Drawing.Size(37, 45);
             this.label_7.TabIndex = 17;
-            this.label_7.Text = "0 %";
+            this.label_7.Text = "0";
             this.label_7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_7
@@ -1154,7 +1135,7 @@
             this.label_LName_7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_7.AutoSize = true;
             this.label_LName_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_7.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_7.Location = new System.Drawing.Point(225, 153);
             this.label_LName_7.Name = "label_LName_7";
             this.label_LName_7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_7.Size = new System.Drawing.Size(24, 21);
@@ -1165,7 +1146,7 @@
             // 
             this.label_Age_static_7.AutoSize = true;
             this.label_Age_static_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_7.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_7.Location = new System.Drawing.Point(10, 174);
             this.label_Age_static_7.Name = "label_Age_static_7";
             this.label_Age_static_7.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_7.TabIndex = 25;
@@ -1176,28 +1157,47 @@
             this.label_FName_7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_7.AutoSize = true;
             this.label_FName_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_7.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_7.Location = new System.Drawing.Point(225, 132);
             this.label_FName_7.Name = "label_FName_7";
             this.label_FName_7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_7.Size = new System.Drawing.Size(24, 21);
             this.label_FName_7.TabIndex = 47;
             this.label_FName_7.Text = " - ";
             // 
+            // pictureBox_7_1
+            // 
+            this.pictureBox_7_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_7_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_7_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_7_1.Name = "pictureBox_7_1";
+            this.pictureBox_7_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_7_1.TabIndex = 17;
+            this.pictureBox_7_1.TabStop = false;
+            // 
             // label_LName_static_7
             // 
             this.label_LName_static_7.AutoSize = true;
             this.label_LName_static_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_7.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_7.Location = new System.Drawing.Point(10, 153);
             this.label_LName_static_7.Name = "label_LName_static_7";
             this.label_LName_static_7.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_7.TabIndex = 24;
             this.label_LName_static_7.Text = "Фамилия: ";
             // 
+            // pictureBox_7_0
+            // 
+            this.pictureBox_7_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_7_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_7_0.Name = "pictureBox_7_0";
+            this.pictureBox_7_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_7_0.TabIndex = 16;
+            this.pictureBox_7_0.TabStop = false;
+            // 
             // label_FName_static_7
             // 
             this.label_FName_static_7.AutoSize = true;
             this.label_FName_static_7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_7.Location = new System.Drawing.Point(4, 132);
+            this.label_FName_static_7.Location = new System.Drawing.Point(11, 132);
             this.label_FName_static_7.Name = "label_FName_static_7";
             this.label_FName_static_7.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_7.TabIndex = 23;
@@ -1218,7 +1218,7 @@
             // 
             this.label_FName_static_2.AutoSize = true;
             this.label_FName_static_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_2.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_2.Location = new System.Drawing.Point(11, 131);
             this.label_FName_static_2.Name = "label_FName_static_2";
             this.label_FName_static_2.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_2.TabIndex = 11;
@@ -1228,7 +1228,7 @@
             // 
             this.label_LName_static_2.AutoSize = true;
             this.label_LName_static_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_2.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_2.Location = new System.Drawing.Point(11, 152);
             this.label_LName_static_2.Name = "label_LName_static_2";
             this.label_LName_static_2.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_2.TabIndex = 12;
@@ -1239,7 +1239,7 @@
             this.label_FName_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_2.AutoSize = true;
             this.label_FName_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_2.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_2.Location = new System.Drawing.Point(225, 131);
             this.label_FName_2.Name = "label_FName_2";
             this.label_FName_2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_2.Size = new System.Drawing.Size(24, 21);
@@ -1250,7 +1250,7 @@
             // 
             this.label_Age_static_2.AutoSize = true;
             this.label_Age_static_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_2.Location = new System.Drawing.Point(4, 174);
+            this.label_Age_static_2.Location = new System.Drawing.Point(12, 173);
             this.label_Age_static_2.Name = "label_Age_static_2";
             this.label_Age_static_2.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_2.TabIndex = 13;
@@ -1261,7 +1261,7 @@
             this.label_LName_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_2.AutoSize = true;
             this.label_LName_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_2.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_2.Location = new System.Drawing.Point(225, 152);
             this.label_LName_2.Name = "label_LName_2";
             this.label_LName_2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_2.Size = new System.Drawing.Size(24, 21);
@@ -1274,12 +1274,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_2.AutoSize = true;
-            this.label_2.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_2.Location = new System.Drawing.Point(116, 45);
+            this.label_2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_2.Location = new System.Drawing.Point(105, 45);
             this.label_2.Name = "label_2";
-            this.label_2.Size = new System.Drawing.Size(54, 32);
+            this.label_2.Size = new System.Drawing.Size(37, 45);
             this.label_2.TabIndex = 3;
-            this.label_2.Text = "0 %";
+            this.label_2.Text = "0";
             this.label_2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_Age_2
@@ -1287,7 +1287,7 @@
             this.label_Age_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_2.AutoSize = true;
             this.label_Age_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_2.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_2.Location = new System.Drawing.Point(225, 173);
             this.label_Age_2.Name = "label_Age_2";
             this.label_Age_2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_2.Size = new System.Drawing.Size(24, 21);
@@ -1298,7 +1298,7 @@
             // 
             this.label_Sex_static_2.AutoSize = true;
             this.label_Sex_static_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_2.Location = new System.Drawing.Point(4, 195);
+            this.label_Sex_static_2.Location = new System.Drawing.Point(12, 194);
             this.label_Sex_static_2.Name = "label_Sex_static_2";
             this.label_Sex_static_2.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_2.TabIndex = 14;
@@ -1307,7 +1307,6 @@
             // panel_0_2
             // 
             this.panel_0_2.BackColor = System.Drawing.Color.White;
-            this.panel_0_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_0_2.Controls.Add(this.label_Sex_2);
             this.panel_0_2.Controls.Add(this.label_Sex_static_2);
             this.panel_0_2.Controls.Add(this.label_Age_2);
@@ -1329,17 +1328,35 @@
             this.label_Sex_2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_2.AutoSize = true;
             this.label_Sex_2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_2.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_2.Location = new System.Drawing.Point(225, 194);
             this.label_Sex_2.Name = "label_Sex_2";
             this.label_Sex_2.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_2.Size = new System.Drawing.Size(24, 21);
             this.label_Sex_2.TabIndex = 18;
             this.label_Sex_2.Text = " - ";
             // 
+            // pictureBox_2_1
+            // 
+            this.pictureBox_2_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_2_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_2_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_2_1.Name = "pictureBox_2_1";
+            this.pictureBox_2_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_2_1.TabIndex = 5;
+            this.pictureBox_2_1.TabStop = false;
+            // 
+            // pictureBox_2_0
+            // 
+            this.pictureBox_2_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_2_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_2_0.Name = "pictureBox_2_0";
+            this.pictureBox_2_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_2_0.TabIndex = 4;
+            this.pictureBox_2_0.TabStop = false;
+            // 
             // panel_3_1
             // 
             this.panel_3_1.BackColor = System.Drawing.Color.White;
-            this.panel_3_1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_3_1.Controls.Add(this.label_Sex_10);
             this.panel_3_1.Controls.Add(this.label_Sex_static_10);
             this.panel_3_1.Controls.Add(this.label_Age_10);
@@ -1361,7 +1378,7 @@
             this.label_Sex_10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_10.AutoSize = true;
             this.label_Sex_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_10.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_10.Location = new System.Drawing.Point(227, 195);
             this.label_Sex_10.Name = "label_Sex_10";
             this.label_Sex_10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_10.Size = new System.Drawing.Size(24, 21);
@@ -1372,7 +1389,7 @@
             // 
             this.label_Sex_static_10.AutoSize = true;
             this.label_Sex_static_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_10.Location = new System.Drawing.Point(4, 195);
+            this.label_Sex_static_10.Location = new System.Drawing.Point(13, 195);
             this.label_Sex_static_10.Name = "label_Sex_static_10";
             this.label_Sex_static_10.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_10.TabIndex = 26;
@@ -1383,7 +1400,7 @@
             this.label_Age_10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_10.AutoSize = true;
             this.label_Age_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_10.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_10.Location = new System.Drawing.Point(227, 174);
             this.label_Age_10.Name = "label_Age_10";
             this.label_Age_10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_10.Size = new System.Drawing.Size(24, 21);
@@ -1396,12 +1413,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_10.AutoSize = true;
-            this.label_10.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_10.Location = new System.Drawing.Point(116, 41);
+            this.label_10.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_10.Location = new System.Drawing.Point(105, 45);
             this.label_10.Name = "label_10";
-            this.label_10.Size = new System.Drawing.Size(54, 32);
+            this.label_10.Size = new System.Drawing.Size(37, 45);
             this.label_10.TabIndex = 17;
-            this.label_10.Text = "0 %";
+            this.label_10.Text = "0";
             this.label_10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_10
@@ -1409,7 +1426,7 @@
             this.label_LName_10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_10.AutoSize = true;
             this.label_LName_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_10.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_10.Location = new System.Drawing.Point(227, 153);
             this.label_LName_10.Name = "label_LName_10";
             this.label_LName_10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_10.Size = new System.Drawing.Size(24, 21);
@@ -1420,7 +1437,7 @@
             // 
             this.label_Age_static_10.AutoSize = true;
             this.label_Age_static_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_10.Location = new System.Drawing.Point(4, 174);
+            this.label_Age_static_10.Location = new System.Drawing.Point(13, 174);
             this.label_Age_static_10.Name = "label_Age_static_10";
             this.label_Age_static_10.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_10.TabIndex = 25;
@@ -1431,28 +1448,47 @@
             this.label_FName_10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_10.AutoSize = true;
             this.label_FName_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_10.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_10.Location = new System.Drawing.Point(227, 132);
             this.label_FName_10.Name = "label_FName_10";
             this.label_FName_10.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_10.Size = new System.Drawing.Size(24, 21);
             this.label_FName_10.TabIndex = 47;
             this.label_FName_10.Text = " - ";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox1.TabIndex = 17;
+            this.pictureBox1.TabStop = false;
+            // 
             // label_LName_static_10
             // 
             this.label_LName_static_10.AutoSize = true;
             this.label_LName_static_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_10.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_10.Location = new System.Drawing.Point(12, 153);
             this.label_LName_static_10.Name = "label_LName_static_10";
             this.label_LName_static_10.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_10.TabIndex = 24;
             this.label_LName_static_10.Text = "Фамилия: ";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox2.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox2.TabIndex = 16;
+            this.pictureBox2.TabStop = false;
+            // 
             // label_FName_static_10
             // 
             this.label_FName_static_10.AutoSize = true;
             this.label_FName_static_10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_10.Location = new System.Drawing.Point(4, 132);
+            this.label_FName_static_10.Location = new System.Drawing.Point(13, 132);
             this.label_FName_static_10.Name = "label_FName_static_10";
             this.label_FName_static_10.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_10.TabIndex = 23;
@@ -1461,7 +1497,6 @@
             // panel_3_0
             // 
             this.panel_3_0.BackColor = System.Drawing.Color.White;
-            this.panel_3_0.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_3_0.Controls.Add(this.label_Sex_9);
             this.panel_3_0.Controls.Add(this.label_Sex_static_9);
             this.panel_3_0.Controls.Add(this.label_Age_9);
@@ -1483,7 +1518,7 @@
             this.label_Sex_9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_9.AutoSize = true;
             this.label_Sex_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_9.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_9.Location = new System.Drawing.Point(227, 195);
             this.label_Sex_9.Name = "label_Sex_9";
             this.label_Sex_9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_9.Size = new System.Drawing.Size(24, 21);
@@ -1494,7 +1529,7 @@
             // 
             this.label_Sex_static_9.AutoSize = true;
             this.label_Sex_static_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_9.Location = new System.Drawing.Point(3, 195);
+            this.label_Sex_static_9.Location = new System.Drawing.Point(11, 195);
             this.label_Sex_static_9.Name = "label_Sex_static_9";
             this.label_Sex_static_9.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_9.TabIndex = 30;
@@ -1505,7 +1540,7 @@
             this.label_Age_9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_9.AutoSize = true;
             this.label_Age_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_9.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_9.Location = new System.Drawing.Point(227, 174);
             this.label_Age_9.Name = "label_Age_9";
             this.label_Age_9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_9.Size = new System.Drawing.Size(24, 21);
@@ -1518,12 +1553,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_9.AutoSize = true;
-            this.label_9.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_9.Location = new System.Drawing.Point(109, 41);
+            this.label_9.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_9.Location = new System.Drawing.Point(105, 45);
             this.label_9.Name = "label_9";
-            this.label_9.Size = new System.Drawing.Size(54, 32);
+            this.label_9.Size = new System.Drawing.Size(37, 45);
             this.label_9.TabIndex = 16;
-            this.label_9.Text = "0 %";
+            this.label_9.Text = "0";
             this.label_9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_9
@@ -1531,7 +1566,7 @@
             this.label_LName_9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_9.AutoSize = true;
             this.label_LName_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_9.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_9.Location = new System.Drawing.Point(227, 153);
             this.label_LName_9.Name = "label_LName_9";
             this.label_LName_9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_9.Size = new System.Drawing.Size(24, 21);
@@ -1542,7 +1577,7 @@
             // 
             this.label_Age_static_9.AutoSize = true;
             this.label_Age_static_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_9.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_9.Location = new System.Drawing.Point(11, 174);
             this.label_Age_static_9.Name = "label_Age_static_9";
             this.label_Age_static_9.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_9.TabIndex = 29;
@@ -1553,28 +1588,47 @@
             this.label_FName_9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_9.AutoSize = true;
             this.label_FName_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_9.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_9.Location = new System.Drawing.Point(227, 132);
             this.label_FName_9.Name = "label_FName_9";
             this.label_FName_9.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_9.Size = new System.Drawing.Size(24, 21);
             this.label_FName_9.TabIndex = 43;
             this.label_FName_9.Text = " - ";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox3.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox3.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox3.TabIndex = 15;
+            this.pictureBox3.TabStop = false;
+            // 
             // label_LName_static_9
             // 
             this.label_LName_static_9.AutoSize = true;
             this.label_LName_static_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_9.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_9.Location = new System.Drawing.Point(11, 153);
             this.label_LName_static_9.Name = "label_LName_static_9";
             this.label_LName_static_9.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_9.TabIndex = 28;
             this.label_LName_static_9.Text = "Фамилия: ";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox4.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox4.TabIndex = 14;
+            this.pictureBox4.TabStop = false;
+            // 
             // label_FName_static_9
             // 
             this.label_FName_static_9.AutoSize = true;
             this.label_FName_static_9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_9.Location = new System.Drawing.Point(3, 132);
+            this.label_FName_static_9.Location = new System.Drawing.Point(11, 132);
             this.label_FName_static_9.Name = "label_FName_static_9";
             this.label_FName_static_9.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_9.TabIndex = 27;
@@ -1583,7 +1637,6 @@
             // panel_3_2
             // 
             this.panel_3_2.BackColor = System.Drawing.Color.White;
-            this.panel_3_2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel_3_2.Controls.Add(this.label_Sex_11);
             this.panel_3_2.Controls.Add(this.label_Sex_static_11);
             this.panel_3_2.Controls.Add(this.label_Age_11);
@@ -1605,7 +1658,7 @@
             this.label_Sex_11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Sex_11.AutoSize = true;
             this.label_Sex_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_11.Location = new System.Drawing.Point(233, 195);
+            this.label_Sex_11.Location = new System.Drawing.Point(227, 195);
             this.label_Sex_11.Name = "label_Sex_11";
             this.label_Sex_11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Sex_11.Size = new System.Drawing.Size(24, 21);
@@ -1616,7 +1669,7 @@
             // 
             this.label_Sex_static_11.AutoSize = true;
             this.label_Sex_static_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Sex_static_11.Location = new System.Drawing.Point(4, 195);
+            this.label_Sex_static_11.Location = new System.Drawing.Point(14, 195);
             this.label_Sex_static_11.Name = "label_Sex_static_11";
             this.label_Sex_static_11.Size = new System.Drawing.Size(45, 21);
             this.label_Sex_static_11.TabIndex = 22;
@@ -1627,7 +1680,7 @@
             this.label_Age_11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_Age_11.AutoSize = true;
             this.label_Age_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_11.Location = new System.Drawing.Point(233, 174);
+            this.label_Age_11.Location = new System.Drawing.Point(227, 174);
             this.label_Age_11.Name = "label_Age_11";
             this.label_Age_11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_Age_11.Size = new System.Drawing.Size(24, 21);
@@ -1640,12 +1693,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label_11.AutoSize = true;
-            this.label_11.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_11.Location = new System.Drawing.Point(106, 41);
+            this.label_11.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_11.Location = new System.Drawing.Point(105, 45);
             this.label_11.Name = "label_11";
-            this.label_11.Size = new System.Drawing.Size(54, 32);
+            this.label_11.Size = new System.Drawing.Size(37, 45);
             this.label_11.TabIndex = 18;
-            this.label_11.Text = "0 %";
+            this.label_11.Text = "0";
             this.label_11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label_LName_11
@@ -1653,7 +1706,7 @@
             this.label_LName_11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_LName_11.AutoSize = true;
             this.label_LName_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_11.Location = new System.Drawing.Point(233, 153);
+            this.label_LName_11.Location = new System.Drawing.Point(227, 153);
             this.label_LName_11.Name = "label_LName_11";
             this.label_LName_11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_LName_11.Size = new System.Drawing.Size(24, 21);
@@ -1664,7 +1717,7 @@
             // 
             this.label_Age_static_11.AutoSize = true;
             this.label_Age_static_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Age_static_11.Location = new System.Drawing.Point(3, 174);
+            this.label_Age_static_11.Location = new System.Drawing.Point(13, 174);
             this.label_Age_static_11.Name = "label_Age_static_11";
             this.label_Age_static_11.Size = new System.Drawing.Size(73, 21);
             this.label_Age_static_11.TabIndex = 21;
@@ -1675,74 +1728,51 @@
             this.label_FName_11.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label_FName_11.AutoSize = true;
             this.label_FName_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_11.Location = new System.Drawing.Point(233, 132);
+            this.label_FName_11.Location = new System.Drawing.Point(227, 132);
             this.label_FName_11.Name = "label_FName_11";
             this.label_FName_11.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.label_FName_11.Size = new System.Drawing.Size(24, 21);
             this.label_FName_11.TabIndex = 51;
             this.label_FName_11.Text = " - ";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox5.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox5.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox5.TabIndex = 9;
+            this.pictureBox5.TabStop = false;
+            // 
             // label_LName_static_11
             // 
             this.label_LName_static_11.AutoSize = true;
             this.label_LName_static_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_LName_static_11.Location = new System.Drawing.Point(3, 153);
+            this.label_LName_static_11.Location = new System.Drawing.Point(13, 153);
             this.label_LName_static_11.Name = "label_LName_static_11";
             this.label_LName_static_11.Size = new System.Drawing.Size(82, 21);
             this.label_LName_static_11.TabIndex = 20;
             this.label_LName_static_11.Text = "Фамилия: ";
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox6.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox6.TabIndex = 8;
+            this.pictureBox6.TabStop = false;
+            // 
             // label_FName_static_11
             // 
             this.label_FName_static_11.AutoSize = true;
             this.label_FName_static_11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_FName_static_11.Location = new System.Drawing.Point(4, 132);
+            this.label_FName_static_11.Location = new System.Drawing.Point(14, 132);
             this.label_FName_static_11.Name = "label_FName_static_11";
             this.label_FName_static_11.Size = new System.Drawing.Size(48, 21);
             this.label_FName_static_11.TabIndex = 19;
             this.label_FName_static_11.Text = "Имя: ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox1.TabIndex = 17;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox2.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox2.TabIndex = 16;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox3.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox4.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox4.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
             // 
             // button_Settings
             // 
@@ -1757,225 +1787,14 @@
             this.button_Settings.UseVisualStyleBackColor = true;
             this.button_Settings.Click += new System.EventHandler(this.button_Settings_Click);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox5.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox6.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox_7_1
-            // 
-            this.pictureBox_7_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_7_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_7_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_7_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_7_1.Name = "pictureBox_7_1";
-            this.pictureBox_7_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_7_1.TabIndex = 17;
-            this.pictureBox_7_1.TabStop = false;
-            // 
-            // pictureBox_7_0
-            // 
-            this.pictureBox_7_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_7_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_7_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_7_0.Name = "pictureBox_7_0";
-            this.pictureBox_7_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_7_0.TabIndex = 16;
-            this.pictureBox_7_0.TabStop = false;
-            // 
-            // pictureBox_6_1
-            // 
-            this.pictureBox_6_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_6_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_6_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_6_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_6_1.Name = "pictureBox_6_1";
-            this.pictureBox_6_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_6_1.TabIndex = 15;
-            this.pictureBox_6_1.TabStop = false;
-            // 
-            // pictureBox_6_0
-            // 
-            this.pictureBox_6_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_6_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_6_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_6_0.Name = "pictureBox_6_0";
-            this.pictureBox_6_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_6_0.TabIndex = 14;
-            this.pictureBox_6_0.TabStop = false;
-            // 
-            // pictureBox_8_1
-            // 
-            this.pictureBox_8_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_8_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_8_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_8_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_8_1.Name = "pictureBox_8_1";
-            this.pictureBox_8_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_8_1.TabIndex = 9;
-            this.pictureBox_8_1.TabStop = false;
-            // 
-            // pictureBox_8_0
-            // 
-            this.pictureBox_8_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_8_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_8_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_8_0.Name = "pictureBox_8_0";
-            this.pictureBox_8_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_8_0.TabIndex = 8;
-            this.pictureBox_8_0.TabStop = false;
-            // 
-            // pictureBox_5_1
-            // 
-            this.pictureBox_5_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_5_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_5_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_5_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_5_1.Name = "pictureBox_5_1";
-            this.pictureBox_5_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_5_1.TabIndex = 7;
-            this.pictureBox_5_1.TabStop = false;
-            // 
-            // pictureBox_5_0
-            // 
-            this.pictureBox_5_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_5_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_5_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_5_0.Name = "pictureBox_5_0";
-            this.pictureBox_5_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_5_0.TabIndex = 6;
-            this.pictureBox_5_0.TabStop = false;
-            // 
-            // pictureBox_4_1
-            // 
-            this.pictureBox_4_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_4_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_4_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_4_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_4_1.Name = "pictureBox_4_1";
-            this.pictureBox_4_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_4_1.TabIndex = 11;
-            this.pictureBox_4_1.TabStop = false;
-            // 
-            // pictureBox_4_0
-            // 
-            this.pictureBox_4_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_4_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_4_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_4_0.Name = "pictureBox_4_0";
-            this.pictureBox_4_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_4_0.TabIndex = 10;
-            this.pictureBox_4_0.TabStop = false;
-            // 
-            // pictureBox_3_1
-            // 
-            this.pictureBox_3_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_3_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_3_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_3_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_3_1.Name = "pictureBox_3_1";
-            this.pictureBox_3_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_3_1.TabIndex = 13;
-            this.pictureBox_3_1.TabStop = false;
-            // 
-            // pictureBox_3_0
-            // 
-            this.pictureBox_3_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_3_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_3_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_3_0.Name = "pictureBox_3_0";
-            this.pictureBox_3_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_3_0.TabIndex = 12;
-            this.pictureBox_3_0.TabStop = false;
-            // 
-            // pictureBox_2_1
-            // 
-            this.pictureBox_2_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_2_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_2_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_2_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_2_1.Name = "pictureBox_2_1";
-            this.pictureBox_2_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_2_1.TabIndex = 5;
-            this.pictureBox_2_1.TabStop = false;
-            // 
-            // pictureBox_2_0
-            // 
-            this.pictureBox_2_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_2_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_2_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_2_0.Name = "pictureBox_2_0";
-            this.pictureBox_2_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_2_0.TabIndex = 4;
-            this.pictureBox_2_0.TabStop = false;
-            // 
-            // pictureBox_1_1
-            // 
-            this.pictureBox_1_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_1_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_1_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_1_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_1_1.Name = "pictureBox_1_1";
-            this.pictureBox_1_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_1_1.TabIndex = 3;
-            this.pictureBox_1_1.TabStop = false;
-            // 
-            // pictureBox_1_0
-            // 
-            this.pictureBox_1_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_1_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_1_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_1_0.Name = "pictureBox_1_0";
-            this.pictureBox_1_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_1_0.TabIndex = 2;
-            this.pictureBox_1_0.TabStop = false;
-            // 
-            // pictureBox_0_1
-            // 
-            this.pictureBox_0_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox_0_1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_0_1.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_0_1.Location = new System.Drawing.Point(233, 3);
-            this.pictureBox_0_1.Name = "pictureBox_0_1";
-            this.pictureBox_0_1.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_0_1.TabIndex = 1;
-            this.pictureBox_0_1.TabStop = false;
-            // 
-            // pictureBox_0_0
-            // 
-            this.pictureBox_0_0.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_0_0.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_74ч100___1_;
-            this.pictureBox_0_0.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_0_0.Name = "pictureBox_0_0";
-            this.pictureBox_0_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_0_0.TabIndex = 0;
-            this.pictureBox_0_0.TabStop = false;
-            // 
             // pictureBox_PTZ_Live
             // 
             this.pictureBox_PTZ_Live.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_PTZ_Live.BackColor = System.Drawing.Color.White;
             this.pictureBox_PTZ_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox_PTZ_Live.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_PTZ_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_345x345;
-            this.pictureBox_PTZ_Live.Location = new System.Drawing.Point(1022, 23);
+            this.pictureBox_PTZ_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
+            this.pictureBox_PTZ_Live.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_PTZ_Live.Name = "pictureBox_PTZ_Live";
             this.pictureBox_PTZ_Live.Size = new System.Drawing.Size(870, 490);
             this.pictureBox_PTZ_Live.TabIndex = 2;
@@ -1987,13 +1806,168 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_Panorama_Live.BackColor = System.Drawing.Color.White;
             this.pictureBox_Panorama_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox_Panorama_Live.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_Panorama_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_345x345;
-            this.pictureBox_Panorama_Live.Location = new System.Drawing.Point(1022, 526);
+            this.pictureBox_Panorama_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
+            this.pictureBox_Panorama_Live.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_Panorama_Live.Name = "pictureBox_Panorama_Live";
             this.pictureBox_Panorama_Live.Size = new System.Drawing.Size(870, 490);
             this.pictureBox_Panorama_Live.TabIndex = 1;
             this.pictureBox_Panorama_Live.TabStop = false;
+            // 
+            // panel_PTZ_Camera
+            // 
+            this.panel_PTZ_Camera.Controls.Add(this.pictureBox_PTZ_Live);
+            this.panel_PTZ_Camera.Location = new System.Drawing.Point(1022, 23);
+            this.panel_PTZ_Camera.Name = "panel_PTZ_Camera";
+            this.panel_PTZ_Camera.Size = new System.Drawing.Size(870, 490);
+            this.panel_PTZ_Camera.TabIndex = 54;
+            // 
+            // panel_Panorama_Camera
+            // 
+            this.panel_Panorama_Camera.Controls.Add(this.pictureBox_Panorama_Live);
+            this.panel_Panorama_Camera.Location = new System.Drawing.Point(1023, 526);
+            this.panel_Panorama_Camera.Name = "panel_Panorama_Camera";
+            this.panel_Panorama_Camera.Size = new System.Drawing.Size(870, 490);
+            this.panel_Panorama_Camera.TabIndex = 3;
+            // 
+            // panel_1_1
+            // 
+            this.panel_1_1.BackColor = System.Drawing.Color.White;
+            this.panel_1_1.Controls.Add(this.label1);
+            this.panel_1_1.Controls.Add(this.label_Sex_static_4);
+            this.panel_1_1.Controls.Add(this.label3);
+            this.panel_1_1.Controls.Add(this.label_4);
+            this.panel_1_1.Controls.Add(this.label5);
+            this.panel_1_1.Controls.Add(this.label_Age_static_4);
+            this.panel_1_1.Controls.Add(this.label7);
+            this.panel_1_1.Controls.Add(this.pictureBox_4_1);
+            this.panel_1_1.Controls.Add(this.label_LName_static_4);
+            this.panel_1_1.Controls.Add(this.pictureBox_4_0);
+            this.panel_1_1.Controls.Add(this.label_FName_static_4);
+            this.panel_1_1.Location = new System.Drawing.Point(353, 273);
+            this.panel_1_1.Name = "panel_1_1";
+            this.panel_1_1.Size = new System.Drawing.Size(312, 240);
+            this.panel_1_1.TabIndex = 43;
+            // 
+            // label1
+            // 
+            this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(227, 195);
+            this.label1.Name = "label1";
+            this.label1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label1.Size = new System.Drawing.Size(24, 21);
+            this.label1.TabIndex = 42;
+            this.label1.Text = " - ";
+            // 
+            // label_Sex_static_4
+            // 
+            this.label_Sex_static_4.AutoSize = true;
+            this.label_Sex_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_Sex_static_4.Location = new System.Drawing.Point(11, 195);
+            this.label_Sex_static_4.Name = "label_Sex_static_4";
+            this.label_Sex_static_4.Size = new System.Drawing.Size(45, 21);
+            this.label_Sex_static_4.TabIndex = 34;
+            this.label_Sex_static_4.Text = "Пол: ";
+            // 
+            // label3
+            // 
+            this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(227, 174);
+            this.label3.Name = "label3";
+            this.label3.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label3.Size = new System.Drawing.Size(24, 21);
+            this.label3.TabIndex = 41;
+            this.label3.Text = " - ";
+            // 
+            // label_4
+            // 
+            this.label_4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label_4.AutoSize = true;
+            this.label_4.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_4.Location = new System.Drawing.Point(105, 45);
+            this.label_4.Name = "label_4";
+            this.label_4.Size = new System.Drawing.Size(37, 45);
+            this.label_4.TabIndex = 6;
+            this.label_4.Text = "0";
+            this.label_4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label5.Location = new System.Drawing.Point(227, 153);
+            this.label5.Name = "label5";
+            this.label5.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label5.Size = new System.Drawing.Size(24, 21);
+            this.label5.TabIndex = 40;
+            this.label5.Text = " - ";
+            // 
+            // label_Age_static_4
+            // 
+            this.label_Age_static_4.AutoSize = true;
+            this.label_Age_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_Age_static_4.Location = new System.Drawing.Point(11, 174);
+            this.label_Age_static_4.Name = "label_Age_static_4";
+            this.label_Age_static_4.Size = new System.Drawing.Size(73, 21);
+            this.label_Age_static_4.TabIndex = 33;
+            this.label_Age_static_4.Text = "Возраст: ";
+            // 
+            // label7
+            // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(227, 132);
+            this.label7.Name = "label7";
+            this.label7.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.label7.Size = new System.Drawing.Size(24, 21);
+            this.label7.TabIndex = 39;
+            this.label7.Text = " - ";
+            // 
+            // pictureBox_4_1
+            // 
+            this.pictureBox_4_1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox_4_1.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_4_1.Location = new System.Drawing.Point(223, 15);
+            this.pictureBox_4_1.Name = "pictureBox_4_1";
+            this.pictureBox_4_1.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_4_1.TabIndex = 13;
+            this.pictureBox_4_1.TabStop = false;
+            // 
+            // label_LName_static_4
+            // 
+            this.label_LName_static_4.AutoSize = true;
+            this.label_LName_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_LName_static_4.Location = new System.Drawing.Point(11, 153);
+            this.label_LName_static_4.Name = "label_LName_static_4";
+            this.label_LName_static_4.Size = new System.Drawing.Size(82, 21);
+            this.label_LName_static_4.TabIndex = 32;
+            this.label_LName_static_4.Text = "Фамилия: ";
+            // 
+            // pictureBox_4_0
+            // 
+            this.pictureBox_4_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_4_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_4_0.Name = "pictureBox_4_0";
+            this.pictureBox_4_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_4_0.TabIndex = 12;
+            this.pictureBox_4_0.TabStop = false;
+            // 
+            // label_FName_static_4
+            // 
+            this.label_FName_static_4.AutoSize = true;
+            this.label_FName_static_4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_FName_static_4.Location = new System.Drawing.Point(11, 132);
+            this.label_FName_static_4.Name = "label_FName_static_4";
+            this.label_FName_static_4.Size = new System.Drawing.Size(48, 21);
+            this.label_FName_static_4.TabIndex = 31;
+            this.label_FName_static_4.Text = "Имя: ";
             // 
             // MainForm
             // 
@@ -2001,6 +1975,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.panel_1_1);
+            this.Controls.Add(this.panel_Panorama_Camera);
+            this.Controls.Add(this.panel_PTZ_Camera);
             this.Controls.Add(this.panel_3_1);
             this.Controls.Add(this.panel_3_0);
             this.Controls.Add(this.button_Settings);
@@ -2010,68 +1987,68 @@
             this.Controls.Add(this.panel_2_0);
             this.Controls.Add(this.panel_2_2);
             this.Controls.Add(this.panel_1_2);
-            this.Controls.Add(this.panel_1_1);
             this.Controls.Add(this.panel_1_0);
             this.Controls.Add(this.panel_0_2);
             this.Controls.Add(this.panel_0_1);
             this.Controls.Add(this.panel_0_0);
-            this.Controls.Add(this.pictureBox_PTZ_Live);
-            this.Controls.Add(this.pictureBox_Panorama_Live);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MainForm";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel_0_0.ResumeLayout(false);
             this.panel_0_0.PerformLayout();
-            this.panel_0_1.ResumeLayout(false);
-            this.panel_0_1.PerformLayout();
-            this.panel_1_0.ResumeLayout(false);
-            this.panel_1_0.PerformLayout();
-            this.panel_1_1.ResumeLayout(false);
-            this.panel_1_1.PerformLayout();
-            this.panel_1_2.ResumeLayout(false);
-            this.panel_1_2.PerformLayout();
-            this.panel_2_2.ResumeLayout(false);
-            this.panel_2_2.PerformLayout();
-            this.panel_2_0.ResumeLayout(false);
-            this.panel_2_0.PerformLayout();
-            this.panel_2_1.ResumeLayout(false);
-            this.panel_2_1.PerformLayout();
-            this.panel_0_2.ResumeLayout(false);
-            this.panel_0_2.PerformLayout();
-            this.panel_3_1.ResumeLayout(false);
-            this.panel_3_1.PerformLayout();
-            this.panel_3_0.ResumeLayout(false);
-            this.panel_3_0.PerformLayout();
-            this.panel_3_2.ResumeLayout(false);
-            this.panel_3_2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_0)).EndInit();
+            this.panel_0_1.ResumeLayout(false);
+            this.panel_0_1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_0)).EndInit();
+            this.panel_1_0.ResumeLayout(false);
+            this.panel_1_0.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_3_0)).EndInit();
+            this.panel_1_2.ResumeLayout(false);
+            this.panel_1_2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_5_0)).EndInit();
+            this.panel_2_2.ResumeLayout(false);
+            this.panel_2_2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_8_0)).EndInit();
+            this.panel_2_0.ResumeLayout(false);
+            this.panel_2_0.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_6_0)).EndInit();
+            this.panel_2_1.ResumeLayout(false);
+            this.panel_2_1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_7_0)).EndInit();
+            this.panel_0_2.ResumeLayout(false);
+            this.panel_0_2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_2_0)).EndInit();
+            this.panel_3_1.ResumeLayout(false);
+            this.panel_3_1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel_3_0.ResumeLayout(false);
+            this.panel_3_0.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.panel_3_2.ResumeLayout(false);
+            this.panel_3_2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ_Live)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama_Live)).EndInit();
+            this.panel_PTZ_Camera.ResumeLayout(false);
+            this.panel_Panorama_Camera.ResumeLayout(false);
+            this.panel_1_1.ResumeLayout(false);
+            this.panel_1_1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_4_0)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2083,8 +2060,6 @@
         private System.Windows.Forms.Panel panel_0_0;
         private System.Windows.Forms.Panel panel_0_1;
         private System.Windows.Forms.Panel panel_1_0;
-        private System.Windows.Forms.Panel panel_1_1;
-        private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel_1_2;
         private System.Windows.Forms.Panel panel_2_2;
         private System.Windows.Forms.Panel panel_2_0;
@@ -2095,8 +2070,6 @@
         private System.Windows.Forms.PictureBox pictureBox_1_0;
         private System.Windows.Forms.PictureBox pictureBox_3_1;
         private System.Windows.Forms.PictureBox pictureBox_3_0;
-        private System.Windows.Forms.PictureBox pictureBox_4_1;
-        private System.Windows.Forms.PictureBox pictureBox_4_0;
         private System.Windows.Forms.PictureBox pictureBox_5_1;
         private System.Windows.Forms.PictureBox pictureBox_5_0;
         private System.Windows.Forms.PictureBox pictureBox_8_1;
@@ -2110,7 +2083,6 @@
         private System.Windows.Forms.Label label_0;
         private System.Windows.Forms.Label label_1;
         private System.Windows.Forms.Label label_3;
-        private System.Windows.Forms.Label label_4;
         private System.Windows.Forms.Label label_5;
         private System.Windows.Forms.Label label_8;
         private System.Windows.Forms.Label label_6;
@@ -2127,10 +2099,6 @@
         private System.Windows.Forms.Label label_Age_static_3;
         private System.Windows.Forms.Label label_LName_static_3;
         private System.Windows.Forms.Label label_FName_static_3;
-        private System.Windows.Forms.Label label_Sex_static_4;
-        private System.Windows.Forms.Label label_Age_static_4;
-        private System.Windows.Forms.Label label_LName_static_4;
-        private System.Windows.Forms.Label label_FName_static_4;
         private System.Windows.Forms.Label label_Sex_static_5;
         private System.Windows.Forms.Label label_Age_static_5;
         private System.Windows.Forms.Label label_LName_static_5;
@@ -2159,10 +2127,6 @@
         private System.Windows.Forms.Label label_Age_3;
         private System.Windows.Forms.Label label_LName_3;
         private System.Windows.Forms.Label label_FName_3;
-        private System.Windows.Forms.Label label_Sex_4;
-        private System.Windows.Forms.Label label_Age_4;
-        private System.Windows.Forms.Label label_LName_4;
-        private System.Windows.Forms.Label label_FName_4;
         private System.Windows.Forms.Label label_Sex_5;
         private System.Windows.Forms.Label label_Age_5;
         private System.Windows.Forms.Label label_LName_5;
@@ -2227,6 +2191,20 @@
         private System.Windows.Forms.Label label_LName_static_11;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Label label_FName_static_11;
+        private System.Windows.Forms.Panel panel_PTZ_Camera;
+        private System.Windows.Forms.Panel panel_Panorama_Camera;
+        private System.Windows.Forms.Panel panel_1_1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label_Sex_static_4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label_4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label_Age_static_4;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox_4_1;
+        private System.Windows.Forms.Label label_LName_static_4;
+        private System.Windows.Forms.PictureBox pictureBox_4_0;
+        private System.Windows.Forms.Label label_FName_static_4;
     }
 }
 

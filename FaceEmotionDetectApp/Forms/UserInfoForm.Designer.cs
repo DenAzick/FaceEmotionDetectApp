@@ -38,16 +38,24 @@
             this.label_Age = new System.Windows.Forms.Label();
             this.label_LName = new System.Windows.Forms.Label();
             this.label_FName = new System.Windows.Forms.Label();
+            this.panel_UserInfo = new System.Windows.Forms.Panel();
+            this.panel_Panorama = new System.Windows.Forms.Panel();
             this.pictureBox_Panorama = new System.Windows.Forms.PictureBox();
+            this.panel_PTZ = new System.Windows.Forms.Panel();
             this.pictureBox_PTZ = new System.Windows.Forms.PictureBox();
             this.pictureBox_Panorama_Live_Info = new System.Windows.Forms.PictureBox();
             this.pictureBox_PTZ_Live_Info = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel_PTZ_Live = new System.Windows.Forms.Panel();
+            this.panel_Panorama_Live = new System.Windows.Forms.Panel();
+            this.panel_UserInfo.SuspendLayout();
+            this.panel_Panorama.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama)).BeginInit();
+            this.panel_PTZ.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama_Live_Info)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ_Live_Info)).BeginInit();
-            this.panel1.SuspendLayout();
+            this.panel_PTZ_Live.SuspendLayout();
+            this.panel_Panorama_Live.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_Info_Percent
@@ -146,25 +154,60 @@
             this.label_FName.TabIndex = 9;
             this.label_FName.Text = " - ";
             // 
+            // panel_UserInfo
+            // 
+            this.panel_UserInfo.BackColor = System.Drawing.Color.White;
+            this.panel_UserInfo.Controls.Add(this.panel_Panorama);
+            this.panel_UserInfo.Controls.Add(this.panel_PTZ);
+            this.panel_UserInfo.Controls.Add(this.label_Sex);
+            this.panel_UserInfo.Controls.Add(this.label_Age);
+            this.panel_UserInfo.Controls.Add(this.label_Info_Percent);
+            this.panel_UserInfo.Controls.Add(this.label_LName);
+            this.panel_UserInfo.Controls.Add(this.label_FName);
+            this.panel_UserInfo.Controls.Add(this.label_FName_Static);
+            this.panel_UserInfo.Controls.Add(this.label_Sex_Static);
+            this.panel_UserInfo.Controls.Add(this.label_LName_Static);
+            this.panel_UserInfo.Controls.Add(this.label_Age_Static);
+            this.panel_UserInfo.Location = new System.Drawing.Point(25, 15);
+            this.panel_UserInfo.Name = "panel_UserInfo";
+            this.panel_UserInfo.Size = new System.Drawing.Size(976, 1002);
+            this.panel_UserInfo.TabIndex = 13;
+            // 
+            // panel_Panorama
+            // 
+            this.panel_Panorama.Controls.Add(this.pictureBox_Panorama);
+            this.panel_Panorama.Location = new System.Drawing.Point(647, 19);
+            this.panel_Panorama.Name = "panel_Panorama";
+            this.panel_Panorama.Size = new System.Drawing.Size(310, 418);
+            this.panel_Panorama.TabIndex = 14;
+            // 
             // pictureBox_Panorama
             // 
             this.pictureBox_Panorama.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_Panorama.BackColor = System.Drawing.Color.White;
-            this.pictureBox_Panorama.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_Panorama.Location = new System.Drawing.Point(647, 19);
+            this.pictureBox_Panorama.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner_256x256;
+            this.pictureBox_Panorama.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_Panorama.Name = "pictureBox_Panorama";
             this.pictureBox_Panorama.Size = new System.Drawing.Size(310, 418);
             this.pictureBox_Panorama.TabIndex = 3;
             this.pictureBox_Panorama.TabStop = false;
+            // 
+            // panel_PTZ
+            // 
+            this.panel_PTZ.Controls.Add(this.pictureBox_PTZ);
+            this.panel_PTZ.Location = new System.Drawing.Point(22, 19);
+            this.panel_PTZ.Name = "panel_PTZ";
+            this.panel_PTZ.Size = new System.Drawing.Size(310, 418);
+            this.panel_PTZ.TabIndex = 13;
             // 
             // pictureBox_PTZ
             // 
             this.pictureBox_PTZ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_PTZ.BackColor = System.Drawing.Color.White;
-            this.pictureBox_PTZ.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_PTZ.Location = new System.Drawing.Point(22, 19);
+            this.pictureBox_PTZ.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner_256x256;
+            this.pictureBox_PTZ.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_PTZ.Name = "pictureBox_PTZ";
             this.pictureBox_PTZ.Size = new System.Drawing.Size(310, 418);
             this.pictureBox_PTZ.TabIndex = 2;
@@ -174,9 +217,8 @@
             // 
             this.pictureBox_Panorama_Live_Info.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_Panorama_Live_Info.BackColor = System.Drawing.Color.White;
-            this.pictureBox_Panorama_Live_Info.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_Panorama_Live_Info.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_345x345;
-            this.pictureBox_Panorama_Live_Info.Location = new System.Drawing.Point(1022, 525);
+            this.pictureBox_Panorama_Live_Info.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
+            this.pictureBox_Panorama_Live_Info.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_Panorama_Live_Info.Name = "pictureBox_Panorama_Live_Info";
             this.pictureBox_Panorama_Live_Info.Size = new System.Drawing.Size(870, 490);
             this.pictureBox_Panorama_Live_Info.TabIndex = 1;
@@ -187,32 +229,28 @@
             this.pictureBox_PTZ_Live_Info.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_PTZ_Live_Info.BackColor = System.Drawing.Color.White;
             this.pictureBox_PTZ_Live_Info.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox_PTZ_Live_Info.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_PTZ_Live_Info.Image = global::FaceEmotionDetectApp.Properties.Resources.Sample_User_Icon_345x345;
-            this.pictureBox_PTZ_Live_Info.Location = new System.Drawing.Point(1022, 15);
+            this.pictureBox_PTZ_Live_Info.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
+            this.pictureBox_PTZ_Live_Info.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_PTZ_Live_Info.Name = "pictureBox_PTZ_Live_Info";
             this.pictureBox_PTZ_Live_Info.Size = new System.Drawing.Size(870, 490);
             this.pictureBox_PTZ_Live_Info.TabIndex = 0;
             this.pictureBox_PTZ_Live_Info.TabStop = false;
             // 
-            // panel1
+            // panel_PTZ_Live
             // 
-            this.panel1.BackColor = System.Drawing.Color.White;
-            this.panel1.Controls.Add(this.pictureBox_PTZ);
-            this.panel1.Controls.Add(this.label_Sex);
-            this.panel1.Controls.Add(this.pictureBox_Panorama);
-            this.panel1.Controls.Add(this.label_Age);
-            this.panel1.Controls.Add(this.label_Info_Percent);
-            this.panel1.Controls.Add(this.label_LName);
-            this.panel1.Controls.Add(this.label_FName);
-            this.panel1.Controls.Add(this.label_FName_Static);
-            this.panel1.Controls.Add(this.label_Sex_Static);
-            this.panel1.Controls.Add(this.label_LName_Static);
-            this.panel1.Controls.Add(this.label_Age_Static);
-            this.panel1.Location = new System.Drawing.Point(25, 15);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(976, 1002);
-            this.panel1.TabIndex = 13;
+            this.panel_PTZ_Live.Controls.Add(this.pictureBox_Panorama_Live_Info);
+            this.panel_PTZ_Live.Location = new System.Drawing.Point(1022, 15);
+            this.panel_PTZ_Live.Name = "panel_PTZ_Live";
+            this.panel_PTZ_Live.Size = new System.Drawing.Size(870, 490);
+            this.panel_PTZ_Live.TabIndex = 15;
+            // 
+            // panel_Panorama_Live
+            // 
+            this.panel_Panorama_Live.Controls.Add(this.pictureBox_PTZ_Live_Info);
+            this.panel_Panorama_Live.Location = new System.Drawing.Point(1022, 527);
+            this.panel_Panorama_Live.Name = "panel_Panorama_Live";
+            this.panel_Panorama_Live.Size = new System.Drawing.Size(870, 490);
+            this.panel_Panorama_Live.TabIndex = 16;
             // 
             // UserInfoForm
             // 
@@ -221,19 +259,24 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox_Panorama_Live_Info);
-            this.Controls.Add(this.pictureBox_PTZ_Live_Info);
+            this.Controls.Add(this.panel_Panorama_Live);
+            this.Controls.Add(this.panel_PTZ_Live);
+            this.Controls.Add(this.panel_UserInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserInfoForm";
             this.Text = "UserInfoForm";
+            this.Load += new System.EventHandler(this.UserInfoForm_Load);
+            this.panel_UserInfo.ResumeLayout(false);
+            this.panel_UserInfo.PerformLayout();
+            this.panel_Panorama.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama)).EndInit();
+            this.panel_PTZ.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Panorama_Live_Info)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_PTZ_Live_Info)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.panel_PTZ_Live.ResumeLayout(false);
+            this.panel_Panorama_Live.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -253,6 +296,10 @@
         private System.Windows.Forms.Label label_Age;
         private System.Windows.Forms.Label label_LName;
         private System.Windows.Forms.Label label_FName;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel_UserInfo;
+        private System.Windows.Forms.Panel panel_PTZ;
+        private System.Windows.Forms.Panel panel_Panorama;
+        private System.Windows.Forms.Panel panel_PTZ_Live;
+        private System.Windows.Forms.Panel panel_Panorama_Live;
     }
 }

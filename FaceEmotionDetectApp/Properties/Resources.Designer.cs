@@ -63,6 +63,16 @@ namespace FaceEmotionDetectApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap camera {
+            get {
+                object obj = ResourceManager.GetObject("camera", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dtafalonso_Android_Lollipop_Settings_16 {
             get {
                 object obj = ResourceManager.GetObject("Dtafalonso-Android-Lollipop-Settings.16", resourceCulture);
@@ -76,6 +86,36 @@ namespace FaceEmotionDetectApp.Properties {
         internal static System.Drawing.Bitmap Dtafalonso_Android_Lollipop_Settings_24 {
             get {
                 object obj = ResourceManager.GetObject("Dtafalonso-Android-Lollipop-Settings.24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap face_scanner {
+            get {
+                object obj = ResourceManager.GetObject("face-scanner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap face_scanner_256x256 {
+            get {
+                object obj = ResourceManager.GetObject("face-scanner 256x256", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap face_scanner1 {
+            get {
+                object obj = ResourceManager.GetObject("face-scanner1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

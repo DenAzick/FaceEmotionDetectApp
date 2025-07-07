@@ -21,6 +21,8 @@ namespace FaceEmotionDetectApp.Forms
             textBox_Password.PasswordChar = '•'; 
             LoadConfiguration();
             button_Config_Connect.BackColor = Color.FromArgb(0, 154, 82);
+            this.TopMost = true;
+
 
         }
 

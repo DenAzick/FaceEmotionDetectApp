@@ -14,7 +14,7 @@ using System.Windows.Forms;
 namespace FaceEmotionDetectApp
 {
 
-    public partial class MainForm : Form
+    public partial class MainForm : BaseForm
     {
         private UserInfoForm _openUserInfoForm;
         private List<Panel> panels = new List<Panel>();
@@ -32,11 +32,15 @@ namespace FaceEmotionDetectApp
         {
             InitializeComponent();
             MainFormSettings();
+            this.TopMost = true;
+            // this.WindowState = FormWindowState.Maximized;
 
             for (int i = 0; i < 12; i++)
             {
                 var labelName = $"label_{i}";
                 var label = this.Controls.Find(labelName, true).FirstOrDefault() as Label;
+
+                label.Font = new Font("Fonts\\Inter-Regular.ttf", 24, FontStyle.Regular);
 
                 label.ForeColor = ColorTranslator.FromHtml("#009A52");
             }
@@ -48,10 +52,95 @@ namespace FaceEmotionDetectApp
             AddClickHandlersToAllPanels();
             StoreOriginalLayout();
 
-          
+            for (int row = 0; row < 4; row++)
+            {
+                for (int col = 0; col < 3; col++)
+                {
+                    string panelName = $"panel_{row}_{col}";
+                    var panel = this.Controls.Find(panelName, true).FirstOrDefault() as Panel;
+
+                    if (panel != null)
+                    {
+                        ApplyRoundedCornersAndPaint(panel, 10, ColorTranslator.FromHtml("#DBE5F3"), 2);
+
+                    }
+                   
+                }
+            }
+
+            ApplyRoundedCornersAndPaint(panel_PTZ_Camera, 10, ColorTranslator.FromHtml("#DBE5F3"), 2);
+            ApplyRoundedCornersAndPaint(panel_Panorama_Camera, 10, ColorTranslator.FromHtml("#DBE5F3"), 2);
         }
 
-       
+        //
+
+        private void ApplyRoundedCornersAndPaint(Control control, int radius, Color borderColor, int borderWidth)
+        {
+            control.Resize += (s, e) => control.Invalidate(); // Перерисовка при изменении размера
+
+            control.Paint += (sender, e) =>
+            {
+                e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+
+                Rectangle rect = control.ClientRectangle;
+                rect.Width -= 1;
+                rect.Height -= 1;
+
+                Rectangle insetRect = new Rectangle(
+                    rect.X + borderWidth / 2,
+                    rect.Y + borderWidth / 2,
+                    rect.Width - borderWidth,
+                    rect.Height - borderWidth
+                );
+
+                using (GraphicsPath path = GetRoundedRectanglePath(insetRect, radius))
+                {
+                    // Заливка фона
+                    using (SolidBrush brush = new SolidBrush(control.BackColor))
+                        e.Graphics.FillPath(brush, path);
+
+                    // Граница
+                    using (Pen pen = new Pen(borderColor, borderWidth))
+                        e.Graphics.DrawPath(pen, path);
+
+                    // Установка формы (скруглённой области)
+                    control.Region = new Region(path);
+                }
+            };
+        }
+
+
+
+        private GraphicsPath GetRoundedRectanglePath(Rectangle rect, int radius)
+        {
+            GraphicsPath path = new GraphicsPath();
+            int diameter = radius * 2;
+
+            if (radius == 0)
+            {
+                path.AddRectangle(rect);
+                return path;
+            }
+
+            path.StartFigure();
+
+            // Верхняя левая
+            path.AddArc(rect.X, rect.Y, diameter, diameter, 180, 90);
+            // Верхняя правая
+            path.AddArc(rect.Right - diameter, rect.Y, diameter, diameter, 270, 90);
+            // Нижняя правая
+            path.AddArc(rect.Right - diameter, rect.Bottom - diameter, diameter, diameter, 0, 90);
+            // Нижняя левая
+            path.AddArc(rect.X, rect.Bottom - diameter, diameter, diameter, 90, 90);
+
+            path.CloseFigure();
+            return path;
+        }
+
+        //
+        //
+
+
 
         private void MainFormSettings()
         {
@@ -76,7 +165,7 @@ namespace FaceEmotionDetectApp
                             pictureBox.SizeMode = PictureBoxSizeMode.CenterImage;
                             
                         }
-                        
+
                     }
                     else
                     {
@@ -84,6 +173,7 @@ namespace FaceEmotionDetectApp
                             (panel.Width - panel.ClientSize.Width) / 2,
                             (panel.Height - panel.ClientSize.Height) / 2,
                             0, 0);
+
                     }
                 }
             }
@@ -151,7 +241,7 @@ namespace FaceEmotionDetectApp
                 Random rnd = new Random(Guid.NewGuid().GetHashCode());
                 g.Clear(Color.FromArgb(rnd.Next(256), rnd.Next(256), rnd.Next(256)));
 
-                using (Font font = new Font("Arial", 10))
+                using (Font font = new Font("Fonts\\Inter-Regular.ttf", 10))
                 {
                     g.DrawString(label, font, Brushes.Black, 5, 5);
                 }
@@ -171,6 +261,7 @@ namespace FaceEmotionDetectApp
                     var panel = this.Controls.Find(name, true).FirstOrDefault() as Panel;
                     if (panel != null)
                         result.Add(panel);
+
                 }
             }
 
@@ -208,11 +299,11 @@ namespace FaceEmotionDetectApp
         {
             pictureBox_Panorama_Live.Image = GenerateRandomImage(
                 pictureBox_Panorama_Live.Width,
-                pictureBox_Panorama_Live.Height, "Panorama");
+                pictureBox_Panorama_Live.Height, "");
 
             pictureBox_PTZ_Live.Image = GenerateRandomImage(
                 pictureBox_PTZ_Live.Width,
-                pictureBox_PTZ_Live.Height, "PTZ");
+                pictureBox_PTZ_Live.Height, "");
 
             ShiftPanelImagesDown();
         }
@@ -235,7 +326,6 @@ namespace FaceEmotionDetectApp
 
                     panel.Click += Panel_Click;
 
-                   
                 }
             }
         }
@@ -258,5 +348,6 @@ namespace FaceEmotionDetectApp
             _openUserInfoForm.Show();
         }
 
+       
     }
 }

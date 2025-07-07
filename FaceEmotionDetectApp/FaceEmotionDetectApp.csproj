@@ -58,6 +58,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Pictures\Sample_User_Icon 74ч100  %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\face-scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\face-scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Pictures\face-scanner 256x256.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
