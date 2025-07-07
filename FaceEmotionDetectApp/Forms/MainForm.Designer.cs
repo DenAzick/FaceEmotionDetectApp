@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.panel_0_0 = new System.Windows.Forms.Panel();
+            this.pictureBox_0_0 = new System.Windows.Forms.PictureBox();
             this.label_Sex_0 = new System.Windows.Forms.Label();
             this.label_Age_0 = new System.Windows.Forms.Label();
             this.label_LName_0 = new System.Windows.Forms.Label();
@@ -40,7 +41,6 @@
             this.label_FName_static_0 = new System.Windows.Forms.Label();
             this.label_0 = new System.Windows.Forms.Label();
             this.pictureBox_0_1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox_0_0 = new System.Windows.Forms.PictureBox();
             this.panel_0_1 = new System.Windows.Forms.Panel();
             this.label_Sex_1 = new System.Windows.Forms.Label();
             this.label_Sex_static_1 = new System.Windows.Forms.Label();
@@ -180,8 +180,8 @@
             this.pictureBox_4_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_4 = new System.Windows.Forms.Label();
             this.panel_0_0.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_0)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).BeginInit();
             this.panel_0_1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_0)).BeginInit();
@@ -224,6 +224,7 @@
             // panel_0_0
             // 
             this.panel_0_0.BackColor = System.Drawing.Color.White;
+            this.panel_0_0.Controls.Add(this.pictureBox_0_0);
             this.panel_0_0.Controls.Add(this.label_Sex_0);
             this.panel_0_0.Controls.Add(this.label_Age_0);
             this.panel_0_0.Controls.Add(this.label_LName_0);
@@ -234,11 +235,19 @@
             this.panel_0_0.Controls.Add(this.label_FName_static_0);
             this.panel_0_0.Controls.Add(this.label_0);
             this.panel_0_0.Controls.Add(this.pictureBox_0_1);
-            this.panel_0_0.Controls.Add(this.pictureBox_0_0);
             this.panel_0_0.Location = new System.Drawing.Point(24, 23);
             this.panel_0_0.Name = "panel_0_0";
             this.panel_0_0.Size = new System.Drawing.Size(312, 240);
             this.panel_0_0.TabIndex = 6;
+            // 
+            // pictureBox_0_0
+            // 
+            this.pictureBox_0_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
+            this.pictureBox_0_0.Location = new System.Drawing.Point(15, 15);
+            this.pictureBox_0_0.Name = "pictureBox_0_0";
+            this.pictureBox_0_0.Size = new System.Drawing.Size(74, 100);
+            this.pictureBox_0_0.TabIndex = 0;
+            this.pictureBox_0_0.TabStop = false;
             // 
             // label_Sex_0
             // 
@@ -351,15 +360,6 @@
             this.pictureBox_0_1.Size = new System.Drawing.Size(74, 100);
             this.pictureBox_0_1.TabIndex = 1;
             this.pictureBox_0_1.TabStop = false;
-            // 
-            // pictureBox_0_0
-            // 
-            this.pictureBox_0_0.Image = global::FaceEmotionDetectApp.Properties.Resources.face_scanner;
-            this.pictureBox_0_0.Location = new System.Drawing.Point(15, 15);
-            this.pictureBox_0_0.Name = "pictureBox_0_0";
-            this.pictureBox_0_0.Size = new System.Drawing.Size(74, 100);
-            this.pictureBox_0_0.TabIndex = 0;
-            this.pictureBox_0_0.TabStop = false;
             // 
             // panel_0_1
             // 
@@ -1789,10 +1789,9 @@
             // 
             // pictureBox_PTZ_Live
             // 
-            this.pictureBox_PTZ_Live.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_PTZ_Live.BackColor = System.Drawing.Color.White;
-            this.pictureBox_PTZ_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_PTZ_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox_PTZ_Live.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox_PTZ_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
             this.pictureBox_PTZ_Live.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_PTZ_Live.Name = "pictureBox_PTZ_Live";
@@ -1802,10 +1801,9 @@
             // 
             // pictureBox_Panorama_Live
             // 
-            this.pictureBox_Panorama_Live.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox_Panorama_Live.BackColor = System.Drawing.Color.White;
-            this.pictureBox_Panorama_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox_Panorama_Live.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox_Panorama_Live.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox_Panorama_Live.Image = global::FaceEmotionDetectApp.Properties.Resources.camera;
             this.pictureBox_Panorama_Live.Location = new System.Drawing.Point(0, 0);
             this.pictureBox_Panorama_Live.Name = "pictureBox_Panorama_Live";
@@ -1999,8 +1997,8 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel_0_0.ResumeLayout(false);
             this.panel_0_0.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_0)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).EndInit();
             this.panel_0_1.ResumeLayout(false);
             this.panel_0_1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_1_1)).EndInit();

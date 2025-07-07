@@ -6,6 +6,8 @@ using System.Data;
 using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.Drawing.Text;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +26,7 @@ namespace FaceEmotionDetectApp
         private readonly Size originalFormSize = new Size(1920, 1080);
 
 
-
+        private PrivateFontCollection _fonts = new PrivateFontCollection();
 
         private Dictionary<string, Rectangle> originalControlsLayout = new Dictionary<string, Rectangle>();
 
@@ -40,13 +42,13 @@ namespace FaceEmotionDetectApp
                 var labelName = $"label_{i}";
                 var label = this.Controls.Find(labelName, true).FirstOrDefault() as Label;
 
-                label.Font = new Font("Fonts\\Inter-Regular.ttf", 24, FontStyle.Regular);
 
                 label.ForeColor = ColorTranslator.FromHtml("#009A52");
             }
 
 
         }
+
         private void MainForm_Load(object sender, EventArgs e)
         {
             AddClickHandlersToAllPanels();
@@ -70,46 +72,105 @@ namespace FaceEmotionDetectApp
 
             ApplyRoundedCornersAndPaint(panel_PTZ_Camera, 10, ColorTranslator.FromHtml("#DBE5F3"), 2);
             ApplyRoundedCornersAndPaint(panel_Panorama_Camera, 10, ColorTranslator.FromHtml("#DBE5F3"), 2);
+            LoadPoppinsFontForLabelsPreserveSize();
+
+
+
         }
 
-        //
+        private void LoadPoppinsFontForLabelsPreserveSize()
+        {
+            string fontPath = Path.Combine(Application.StartupPath, "Fonts", "Poppins", "Poppins-SemiBold.ttf");
+
+            if (!File.Exists(fontPath))
+            {
+                MessageBox.Show("Шрифт не найден: " + fontPath);
+                return;
+            }
+
+            _fonts.AddFontFile(fontPath);
+
+            FontFamily poppinsFamily = _fonts.Families[0];
+
+            ApplyFontToLabelsPreserveSize(this, poppinsFamily);
+        }
+
+        private void ApplyFontToLabelsPreserveSize(Control parent, FontFamily fontFamily)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is Label label)
+                {
+                    float currentSize = label.Font.Size;
+                    FontStyle currentStyle = label.Font.Style;
+
+                    label.Font = new Font(fontFamily, currentSize, currentStyle);
+                }
+
+                if (control.HasChildren)
+                {
+                    ApplyFontToLabelsPreserveSize(control, fontFamily);
+                }
+            }
+        }
 
         private void ApplyRoundedCornersAndPaint(Control control, int radius, Color borderColor, int borderWidth)
         {
-            control.Resize += (s, e) => control.Invalidate(); // Перерисовка при изменении размера
+            control.Resize -= Control_Resize;
+            control.Paint -= Control_Paint;
 
-            control.Paint += (sender, e) =>
+            control.Resize += Control_Resize;
+            control.Paint += Control_Paint;
+
+            void Control_Resize(object sender, EventArgs e)
+            {
+                control.Invalidate();
+            }
+
+            void Control_Paint(object sender, PaintEventArgs e)
             {
                 e.Graphics.SmoothingMode = SmoothingMode.AntiAlias;
+                e.Graphics.PixelOffsetMode = PixelOffsetMode.HighQuality;
 
                 Rectangle rect = control.ClientRectangle;
-                rect.Width -= 1;
-                rect.Height -= 1;
 
-                Rectangle insetRect = new Rectangle(
-                    rect.X + borderWidth / 2,
-                    rect.Y + borderWidth / 2,
-                    rect.Width - borderWidth,
-                    rect.Height - borderWidth
-                );
+                rect.Width = Math.Max(1, rect.Width - 1);
+                rect.Height = Math.Max(1, rect.Height - 1);
 
-                using (GraphicsPath path = GetRoundedRectanglePath(insetRect, radius))
+                using (GraphicsPath path = GetRoundedRectanglePath(rect, radius))
                 {
-                    // Заливка фона
                     using (SolidBrush brush = new SolidBrush(control.BackColor))
+                    {
                         e.Graphics.FillPath(brush, path);
+                    }
 
-                    // Граница
                     using (Pen pen = new Pen(borderColor, borderWidth))
+                    {
                         e.Graphics.DrawPath(pen, path);
+                    }
 
-                    // Установка формы (скруглённой области)
-                    control.Region = new Region(path);
+                    if (!(control is PictureBox))
+                    {
+                        control.Region = new Region(path);
+                    }
                 }
-            };
+            }
         }
 
 
+        private void UpdateControlRegion(Control control, int radius)
+        {
+            Rectangle rect = control.ClientRectangle;
+
+            if (rect.Width > 0 && rect.Height > 0)
+            {
+                using (GraphicsPath path = GetRoundedRectanglePath(rect, radius))
+                {
+                    control.Region?.Dispose();
+                    control.Region = new Region(path);
+                }
+            }
+        }
 
         private GraphicsPath GetRoundedRectanglePath(Rectangle rect, int radius)
         {
@@ -124,23 +185,14 @@ namespace FaceEmotionDetectApp
 
             path.StartFigure();
 
-            // Верхняя левая
             path.AddArc(rect.X, rect.Y, diameter, diameter, 180, 90);
-            // Верхняя правая
             path.AddArc(rect.Right - diameter, rect.Y, diameter, diameter, 270, 90);
-            // Нижняя правая
             path.AddArc(rect.Right - diameter, rect.Bottom - diameter, diameter, diameter, 0, 90);
-            // Нижняя левая
             path.AddArc(rect.X, rect.Bottom - diameter, diameter, diameter, 90, 90);
 
             path.CloseFigure();
             return path;
         }
-
-        //
-        //
-
-
 
         private void MainFormSettings()
         {
@@ -148,7 +200,6 @@ namespace FaceEmotionDetectApp
             pictureBox_Panorama_Live.SizeMode = PictureBoxSizeMode.CenterImage;
             this.Load += MainForm_Load;
             this.Resize += MainForm_Resize;
-
 
             for (int row = 0; row < 4; row++)
             {
@@ -161,10 +212,12 @@ namespace FaceEmotionDetectApp
                     {
                         foreach (var pictureBox in panel.Controls.OfType<PictureBox>())
                         {
+
                             pictureBox.AutoSize = true;
                             pictureBox.SizeMode = PictureBoxSizeMode.CenterImage;
-                            
+
                         }
+
 
                     }
                     else
@@ -229,9 +282,12 @@ namespace FaceEmotionDetectApp
                     control.Height = (int)(entry.Value.Height * scaleY);
                     control.Left = (int)(entry.Value.X * scaleX);
                     control.Top = (int)(entry.Value.Y * scaleY);
+
+                    UpdateControlRegion(control, 10); 
                 }
             }
         }
+
 
         private Image GenerateRandomImage(int width, int height, string label)
         {
@@ -261,6 +317,8 @@ namespace FaceEmotionDetectApp
                     var panel = this.Controls.Find(name, true).FirstOrDefault() as Panel;
                     if (panel != null)
                         result.Add(panel);
+                   
+                
 
                 }
             }
