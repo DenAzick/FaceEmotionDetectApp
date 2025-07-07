@@ -62,58 +62,61 @@
             // label_Ip
             // 
             this.label_Ip.AutoSize = true;
-            this.label_Ip.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_Ip.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_Ip.Location = new System.Drawing.Point(14, 10);
             this.label_Ip.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label_Ip.Name = "label_Ip";
-            this.label_Ip.Size = new System.Drawing.Size(33, 21);
+            this.label_Ip.Size = new System.Drawing.Size(27, 19);
             this.label_Ip.TabIndex = 1;
             this.label_Ip.Text = "ip: ";
             // 
             // label_Login
             // 
             this.label_Login.AutoSize = true;
-            this.label_Login.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_Login.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_Login.Location = new System.Drawing.Point(14, 51);
             this.label_Login.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label_Login.Name = "label_Login";
-            this.label_Login.Size = new System.Drawing.Size(55, 21);
+            this.label_Login.Size = new System.Drawing.Size(44, 19);
             this.label_Login.TabIndex = 2;
             this.label_Login.Text = "login: ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.Location = new System.Drawing.Point(14, 91);
             this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 21);
+            this.label3.Size = new System.Drawing.Size(75, 19);
             this.label3.TabIndex = 3;
             this.label3.Text = "password: ";
             // 
             // textBox_Ip
             // 
             this.textBox_Ip.BackColor = System.Drawing.Color.White;
+            this.textBox_Ip.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Ip.Location = new System.Drawing.Point(109, 6);
             this.textBox_Ip.Name = "textBox_Ip";
-            this.textBox_Ip.Size = new System.Drawing.Size(140, 29);
+            this.textBox_Ip.Size = new System.Drawing.Size(140, 33);
             this.textBox_Ip.TabIndex = 4;
             // 
             // textBox_Login
             // 
             this.textBox_Login.BackColor = System.Drawing.Color.White;
+            this.textBox_Login.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Login.Location = new System.Drawing.Point(109, 45);
             this.textBox_Login.Name = "textBox_Login";
-            this.textBox_Login.Size = new System.Drawing.Size(261, 29);
+            this.textBox_Login.Size = new System.Drawing.Size(261, 33);
             this.textBox_Login.TabIndex = 5;
             // 
             // textBox_Password
             // 
             this.textBox_Password.BackColor = System.Drawing.Color.White;
+            this.textBox_Password.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox_Password.Location = new System.Drawing.Point(109, 85);
             this.textBox_Password.Name = "textBox_Password";
-            this.textBox_Password.Size = new System.Drawing.Size(261, 29);
+            this.textBox_Password.Size = new System.Drawing.Size(261, 33);
             this.textBox_Password.TabIndex = 6;
             // 
             // progressBar1
@@ -126,19 +129,20 @@
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.Color.White;
+            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(307, 6);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 29);
+            this.textBox1.Size = new System.Drawing.Size(63, 33);
             this.textBox1.TabIndex = 8;
             // 
             // label_Port
             // 
             this.label_Port.AutoSize = true;
-            this.label_Port.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_Port.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label_Port.Location = new System.Drawing.Point(257, 9);
             this.label_Port.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label_Port.Name = "label_Port";
-            this.label_Port.Size = new System.Drawing.Size(50, 21);
+            this.label_Port.Size = new System.Drawing.Size(41, 19);
             this.label_Port.TabIndex = 9;
             this.label_Port.Text = "port: ";
             // 
@@ -167,6 +171,7 @@
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Camera Configuration";
+            this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -1,20 +1,24 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
-using Newtonsoft.Json;
+using TheArtOfDevHtmlRenderer.Adapters;
 
 namespace FaceEmotionDetectApp.Forms
 {
     
     public partial class SettingsForm : Form
     {
+        private PrivateFontCollection _fonts = new PrivateFontCollection();
+
         public SettingsForm()
         {
             InitializeComponent();
@@ -55,6 +59,47 @@ namespace FaceEmotionDetectApp.Forms
                 textBox_Password.Text = config.Password;
                 textBox1.Text = config.Port;
             }
+        }
+
+        private void LoadPoppinsFontForLabelsPreserveSize()
+        {
+            string fontPath = Path.Combine(Application.StartupPath, "Fonts", "Poppins", "Poppins-SemiBold.ttf");
+
+            if (!File.Exists(fontPath))
+            {
+                MessageBox.Show("Шрифт не найден: " + fontPath);
+                return;
+            }
+
+            _fonts.AddFontFile(fontPath);
+
+            FontFamily poppinsFamily = _fonts.Families[0];
+
+            ApplyFontToLabelsPreserveSize(this, poppinsFamily);
+        }
+
+        private void ApplyFontToLabelsPreserveSize(Control parent, FontFamily fontFamily)
+        {
+            foreach (Control control in parent.Controls)
+            {
+                if (control is Label label)
+                {
+                    float currentSize = label.Font.Size;
+                    FontStyle currentStyle = label.Font.Style;
+
+                    label.Font = new Font(fontFamily, currentSize, currentStyle);
+                }
+
+                if (control.HasChildren)
+                {
+                    ApplyFontToLabelsPreserveSize(control, fontFamily);
+                }
+            }
+        }
+
+        private void SettingsForm_Load(object sender, EventArgs e)
+        {
+            LoadPoppinsFontForLabelsPreserveSize();
         }
     }
 }
