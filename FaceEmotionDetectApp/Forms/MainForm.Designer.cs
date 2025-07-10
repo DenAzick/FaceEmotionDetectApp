@@ -162,7 +162,6 @@
             this.label_LName_static_11 = new System.Windows.Forms.Label();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_11 = new System.Windows.Forms.Label();
-            this.button_Settings = new System.Windows.Forms.Button();
             this.pictureBox_PTZ_Live = new System.Windows.Forms.PictureBox();
             this.pictureBox_Panorama_Live = new System.Windows.Forms.PictureBox();
             this.panel_PTZ_Camera = new System.Windows.Forms.Panel();
@@ -179,6 +178,7 @@
             this.label_LName_static_4 = new System.Windows.Forms.Label();
             this.pictureBox_4_0 = new System.Windows.Forms.PictureBox();
             this.label_FName_static_4 = new System.Windows.Forms.Label();
+            this.button_Settings = new System.Windows.Forms.Button();
             this.panel_0_0.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_0_1)).BeginInit();
@@ -1774,19 +1774,6 @@
             this.label_FName_static_11.TabIndex = 19;
             this.label_FName_static_11.Text = "Имя: ";
             // 
-            // button_Settings
-            // 
-            this.button_Settings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button_Settings.Image = global::FaceEmotionDetectApp.Properties.Resources.Dtafalonso_Android_Lollipop_Settings_16;
-            this.button_Settings.Location = new System.Drawing.Point(1868, 1015);
-            this.button_Settings.Name = "button_Settings";
-            this.button_Settings.Size = new System.Drawing.Size(25, 25);
-            this.button_Settings.TabIndex = 11;
-            this.button_Settings.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button_Settings.UseVisualStyleBackColor = true;
-            this.button_Settings.Click += new System.EventHandler(this.button_Settings_Click);
-            // 
             // pictureBox_PTZ_Live
             // 
             this.pictureBox_PTZ_Live.BackColor = System.Drawing.Color.White;
@@ -1967,18 +1954,31 @@
             this.label_FName_static_4.TabIndex = 31;
             this.label_FName_static_4.Text = "Имя: ";
             // 
+            // button_Settings
+            // 
+            this.button_Settings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.button_Settings.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button_Settings.Image = global::FaceEmotionDetectApp.Properties.Resources.Dtafalonso_Android_Lollipop_Settings_16;
+            this.button_Settings.Location = new System.Drawing.Point(2, 1014);
+            this.button_Settings.Name = "button_Settings";
+            this.button_Settings.Size = new System.Drawing.Size(25, 25);
+            this.button_Settings.TabIndex = 55;
+            this.button_Settings.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button_Settings.UseVisualStyleBackColor = true;
+            this.button_Settings.Click += new System.EventHandler(this.button_Settings_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.button_Settings);
             this.Controls.Add(this.panel_1_1);
             this.Controls.Add(this.panel_Panorama_Camera);
             this.Controls.Add(this.panel_PTZ_Camera);
             this.Controls.Add(this.panel_3_1);
             this.Controls.Add(this.panel_3_0);
-            this.Controls.Add(this.button_Settings);
             this.Controls.Add(this.panel_3_2);
             this.Controls.Add(this.shiftButton);
             this.Controls.Add(this.panel_2_1);
@@ -2077,7 +2077,6 @@
         private System.Windows.Forms.PictureBox pictureBox_7_1;
         private System.Windows.Forms.PictureBox pictureBox_7_0;
         private System.Windows.Forms.Button shiftButton;
-        private System.Windows.Forms.Button button_Settings;
         private System.Windows.Forms.Label label_0;
         private System.Windows.Forms.Label label_1;
         private System.Windows.Forms.Label label_3;
@@ -2203,6 +2202,7 @@
         private System.Windows.Forms.Label label_LName_static_4;
         private System.Windows.Forms.PictureBox pictureBox_4_0;
         private System.Windows.Forms.Label label_FName_static_4;
+        private System.Windows.Forms.Button button_Settings;
     }
 }
 

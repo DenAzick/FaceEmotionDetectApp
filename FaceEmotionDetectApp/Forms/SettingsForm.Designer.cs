@@ -34,10 +34,10 @@
             this.label_Login = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox_Ip = new System.Windows.Forms.TextBox();
-            this.textBox_Login = new System.Windows.Forms.TextBox();
+            this.textBox_Username = new System.Windows.Forms.TextBox();
             this.textBox_Password = new System.Windows.Forms.TextBox();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox_Port = new System.Windows.Forms.TextBox();
             this.label_Port = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -101,14 +101,14 @@
             this.textBox_Ip.Size = new System.Drawing.Size(140, 33);
             this.textBox_Ip.TabIndex = 4;
             // 
-            // textBox_Login
+            // textBox_Username
             // 
-            this.textBox_Login.BackColor = System.Drawing.Color.White;
-            this.textBox_Login.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Login.Location = new System.Drawing.Point(109, 45);
-            this.textBox_Login.Name = "textBox_Login";
-            this.textBox_Login.Size = new System.Drawing.Size(261, 33);
-            this.textBox_Login.TabIndex = 5;
+            this.textBox_Username.BackColor = System.Drawing.Color.White;
+            this.textBox_Username.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Username.Location = new System.Drawing.Point(109, 45);
+            this.textBox_Username.Name = "textBox_Username";
+            this.textBox_Username.Size = new System.Drawing.Size(261, 33);
+            this.textBox_Username.TabIndex = 5;
             // 
             // textBox_Password
             // 
@@ -126,14 +126,14 @@
             this.progressBar1.Size = new System.Drawing.Size(163, 27);
             this.progressBar1.TabIndex = 7;
             // 
-            // textBox1
+            // textBox_Port
             // 
-            this.textBox1.BackColor = System.Drawing.Color.White;
-            this.textBox1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(307, 6);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(63, 33);
-            this.textBox1.TabIndex = 8;
+            this.textBox_Port.BackColor = System.Drawing.Color.White;
+            this.textBox_Port.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_Port.Location = new System.Drawing.Point(307, 6);
+            this.textBox_Port.Name = "textBox_Port";
+            this.textBox_Port.Size = new System.Drawing.Size(63, 33);
+            this.textBox_Port.TabIndex = 8;
             // 
             // label_Port
             // 
@@ -153,10 +153,10 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(384, 161);
             this.Controls.Add(this.label_Port);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBox_Port);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.textBox_Password);
-            this.Controls.Add(this.textBox_Login);
+            this.Controls.Add(this.textBox_Username);
             this.Controls.Add(this.textBox_Ip);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label_Login);
@@ -171,6 +171,7 @@
             this.Name = "SettingsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Camera Configuration";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.SettingsForm_FormClosing);
             this.Load += new System.EventHandler(this.SettingsForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -184,10 +185,10 @@
         private System.Windows.Forms.Label label_Login;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox_Ip;
-        private System.Windows.Forms.TextBox textBox_Login;
+        private System.Windows.Forms.TextBox textBox_Username;
         private System.Windows.Forms.TextBox textBox_Password;
         private System.Windows.Forms.ProgressBar progressBar1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox_Port;
         private System.Windows.Forms.Label label_Port;
     }
 }

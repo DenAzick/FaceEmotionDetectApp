@@ -14,7 +14,7 @@ using TheArtOfDevHtmlRenderer.Adapters;
 
 namespace FaceEmotionDetectApp.Forms
 {
-    
+
     public partial class SettingsForm : Form
     {
         private PrivateFontCollection _fonts = new PrivateFontCollection();
@@ -22,8 +22,9 @@ namespace FaceEmotionDetectApp.Forms
         public SettingsForm()
         {
             InitializeComponent();
-            textBox_Password.PasswordChar = '•'; 
-            LoadConfiguration();
+            textBox_Password.PasswordChar = '•';
+            textBox_Username.PasswordChar = '•';
+            //LoadConfiguration();
             button_Config_Connect.BackColor = Color.FromArgb(0, 154, 82);
             this.TopMost = true;
 
@@ -32,34 +33,34 @@ namespace FaceEmotionDetectApp.Forms
 
         private void button_Config_Connect_Click(object sender, EventArgs e)
         {
-            SaveConfiguration();
+            //SaveConfiguration();
         }
 
-        private void SaveConfiguration()
-        {
-            var config = new
-            {
-                Ip = textBox_Ip.Text,
-                Login = textBox_Login.Text,
-                Password = textBox_Password.Text, 
-                Port = textBox1.Text
-            };
-            string json = JsonConvert.SerializeObject(config, Formatting.Indented);
-            System.IO.File.WriteAllText("config.json", json);
-        }
+        //private void SaveConfiguration()
+        //{
+        //    var config = new
+        //    {
+        //        Ip = textBox_Ip.Text,
+        //        Login = textBox_Username.Text,
+        //        Password = textBox_Password.Text,
+        //        Port = textBox_Port.Text
+        //    };
+        //    string json = JsonConvert.SerializeObject(config, Formatting.Indented);
+        //    System.IO.File.WriteAllText("config.json", json);
+        //}
 
-        private void LoadConfiguration()
-        {
-            if (System.IO.File.Exists("config.json"))
-            {
-                string json = System.IO.File.ReadAllText("config.json");
-                var config = JsonConvert.DeserializeObject<dynamic>(json);
-                textBox_Ip.Text = config.Ip;
-                textBox_Login.Text = config.Login;
-                textBox_Password.Text = config.Password;
-                textBox1.Text = config.Port;
-            }
-        }
+        //private void LoadConfiguration()
+        //{
+        //    if (System.IO.File.Exists("config.json"))
+        //    {
+        //        string json = System.IO.File.ReadAllText("config.json");
+        //        var config = JsonConvert.DeserializeObject<dynamic>(json);
+        //        textBox_Ip.Text = config.Ip;
+        //        textBox_Username.Text = config.Login;
+        //        textBox_Password.Text = config.Password;
+        //        textBox_Port.Text = config.Port;
+        //    }
+        //}
 
         private void LoadPoppinsFontForLabelsPreserveSize()
         {
@@ -100,6 +101,21 @@ namespace FaceEmotionDetectApp.Forms
         private void SettingsForm_Load(object sender, EventArgs e)
         {
             LoadPoppinsFontForLabelsPreserveSize();
+
+
+            textBox_Ip.Text = Properties.Settings.Default.IP;
+            textBox_Port.Text = Properties.Settings.Default.Port;
+            textBox_Username.Text = Properties.Settings.Default.Username;
         }
+
+        private void SettingsForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.IP = textBox_Ip.Text;
+            Properties.Settings.Default.Port = textBox_Port.Text;
+            Properties.Settings.Default.Username = textBox_Username.Text;
+            Properties.Settings.Default.Save();
+        }
+
+       
     }
 }

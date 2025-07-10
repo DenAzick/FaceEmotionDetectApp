@@ -366,11 +366,7 @@ namespace FaceEmotionDetectApp
             ShiftPanelImagesDown();
         }
 
-        private void button_Settings_Click(object sender, EventArgs e)
-        {
-            var settingsForm = new SettingsForm();
-            settingsForm.ShowDialog();
-        }
+       
 
         private void AddClickHandlersToAllPanels()
         {
@@ -406,6 +402,10 @@ namespace FaceEmotionDetectApp
             _openUserInfoForm.Show();
         }
 
-       
+        private void button_Settings_Click(object sender, EventArgs e)
+        {
+            var settingsForm = new SettingsForm();
+            settingsForm.ShowDialog();
+        }
     }
 }
