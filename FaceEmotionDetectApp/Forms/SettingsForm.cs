@@ -18,7 +18,7 @@ namespace FaceEmotionDetectApp.Forms
     public partial class SettingsForm : Form
     {
         private PrivateFontCollection _fonts = new PrivateFontCollection();
-
+        private bool _isConnected = false;
         public SettingsForm()
         {
             InitializeComponent();
@@ -31,11 +31,61 @@ namespace FaceEmotionDetectApp.Forms
 
         }
 
-        private void button_Config_Connect_Click(object sender, EventArgs e)
+        private async void button_Config_Connect_Click(object sender, EventArgs e)
         {
             //SaveConfiguration();
-        }
+            if (_isConnected)
+            {
+                button_Config_Connect.Text = "Connect";
+                return;
+            }
 
+            string cameraUrl = GetCameraUrl();
+            if (string.IsNullOrEmpty(cameraUrl))
+                return;
+
+            //bool connected = await LoadCamera(cameraUrl);
+            //if (!connected)
+            //    return;
+
+            this.Text = $"{textBox_Ip.Text.Trim()}:{textBox_Port.Text.Trim()}";
+            _isConnected = true;
+            button_Config_Connect.Text = "Disconnect";
+        }
+        private string GetCameraUrl()
+        {
+            string username = textBox_Username.Text.Trim();
+            string password = textBox_Password.Text.Trim();
+            string ip = textBox_Ip.Text.Trim();
+            string port = textBox_Port.Text.Trim();
+
+            if (string.IsNullOrWhiteSpace(ip))
+            {
+                MessageBox.Show("Введите IP-адрес камеры.");
+                return string.Empty;
+            }
+
+            if (string.IsNullOrWhiteSpace(port))
+            {
+                MessageBox.Show("Введите порт камеры.");
+                return string.Empty;
+            }
+
+            if (string.IsNullOrWhiteSpace(username))
+            {
+                MessageBox.Show("Введите username");
+                return string.Empty;
+            }
+            if (string.IsNullOrWhiteSpace(password))
+            {
+                MessageBox.Show("Введите password.");
+                return string.Empty;
+            }
+
+            //string pattern = comboBox_Protocol.Text;
+            string result = $"rtsp://{username}:{password}@{ip}:{port}";
+            return result;
+        }
         //private void SaveConfiguration()
         //{
         //    var config = new
